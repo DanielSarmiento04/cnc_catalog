@@ -63,20 +63,36 @@ class CNCApp(App):
   
 
 
-        spinner_block = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label = LightLabel(text="Operation:", size_hint=(None, 1), width=120)
-        self.spinner = LightSpinner(
-            text='Select Operation',
+        spinner_block_option = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_option = LightLabel(text="Operación:", size_hint=(None, 1), width=120)
+        self.spinner_operation_options = LightSpinner(
+            text='Seleccione operación',
             values=OPERATIONS,
             size_hint=(1, None),
             height=44,
 
         )
-        self.spinner.bind(text=self.select_operation)
+        self.spinner_operation_options.bind(text=self.select_operation)
 
-        spinner_block.add_widget(spinner_label)
-        spinner_block.add_widget(self.spinner)
-        main_layout.add_widget(spinner_block)
+        spinner_block_option.add_widget(spinner_label_option)
+        spinner_block_option.add_widget(self.spinner_operation_options)
+        main_layout.add_widget(spinner_block_option)
+
+
+        spinner_block_diameter = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_diameter = LightLabel(text="Diámetros:", size_hint=(None, 1), width=120)
+        self.spinner_diameter = LightSpinner(
+            text='Seleccione diámetro',
+            values=[],
+            size_hint=(1, None),
+            height=44,
+
+        )
+
+        self.spinner_diameter.bind(text=self.select_diameter)
+        spinner_block_diameter.add_widget(spinner_label_diameter)
+        spinner_block_diameter.add_widget(self.spinner_diameter)
+        main_layout.add_widget(spinner_block_diameter)
 
         # Label
         self.label = LightLabel(text="Select a CNC Tool", font_size='20sp')
@@ -101,13 +117,31 @@ class CNCApp(App):
         return main_layout
 
     def select_tool(self, tool):
+        '''
+            function to configure the spinner of the tool event
+        '''
         self.label.text = f"Selected Tool: {tool}"
         self.main_button.text = tool
 
     def select_operation(self, spinner, text):
+        '''
+            function to configure the spinner of the operation event
+        '''
         print(f"Selected operation: {text}")  # You can update this method to handle the selection
 
         self.data_frame_type_operation = pd.read_csv(
             f"./app/data/operation/{text.lower()}.csv"
         )
+        self.spinner_diameter.values = self.data_frame_type_operation['D1'] \
+                                        .unique() \
+                                        .astype(str) \
+                                        .tolist()
+        self.spinner_diameter.option_cls.background_color = (0.9, 0.9, 0.9, 1)
+        self.spinner_diameter.option_cls.color = (0, 0, 0, 1)  # Black text
+        
+
+    def select_diameter(self, spinner, text):
+        '''
+            function to configure the spinner of the diameter event
+        '''
 
