@@ -3,6 +3,7 @@ from kivy.uix.label import Label
 from kivy.uix.button import Button
 from kivy.uix.dropdown import DropDown
 from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.gridlayout import GridLayout
 from kivy.uix.widget import Widget
 from kivy.uix.behaviors import ButtonBehavior
 from kivy.graphics import Color, Rectangle
@@ -10,6 +11,19 @@ from .components import (
     LightLabel,
     LightButton
 )
+from kivy.core.window import Window
+
+
+class Columns(GridLayout):
+    """  """
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        # self.cols = 4
+        self.spacing = 10
+        self.padding = 10
+        self.bind(minimum_height=self.minimum_height)
+        self.bind(minimum_width=self.minimum_width)
 
 
 class CNCApp(App):
@@ -17,8 +31,20 @@ class CNCApp(App):
     def build(self):
         # Main layout
         main_layout = BoxLayout(orientation='vertical', padding=10, spacing=10)
-        main_layout.canvas.before.add(Color(1, 1, 1, 1))  # White background
-        main_layout.canvas.before.add(Rectangle(size=(800, 600)))
+        with main_layout.canvas.before:
+            Color(1, 1, 1, 1)  # White background
+            self.rect = Rectangle(size=Window.size)
+
+
+        # Header layout
+        header_layout = GridLayout(cols=4, size_hint_y=None, height=44)
+
+        headers = ["Operación", "Diámetro Herramienta", "Ángulo", "Número de insertos"]
+        for header in headers:
+            header_label = LightLabel(text=header, bold=True)
+            header_layout.add_widget(header_label)
+
+        main_layout.add_widget(header_layout)
 
         # Label
         self.label = LightLabel(text="Select a CNC Tool", font_size='20sp')
