@@ -8,3 +8,10 @@ DIAMETERS = [
     63,
     80
 ]
+
+OPERATIONS = [
+    "Ranurado",
+    "Planeado",
+    "Escuadrado"
+]
+

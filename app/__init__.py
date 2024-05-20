@@ -9,10 +9,16 @@ from kivy.uix.behaviors import ButtonBehavior
 from kivy.graphics import Color, Rectangle
 from .components import (
     LightLabel,
-    LightButton
+    LightButton,
+    LightSpinner
+)
+from .constants import (
+    DIAMETERS,
+    OPERATIONS
 )
 from kivy.core.window import Window
-
+from kivy.uix.spinner import Spinner
+import pandas as pd
 
 class Columns(GridLayout):
     """  """
@@ -27,6 +33,15 @@ class Columns(GridLayout):
 
 
 class CNCApp(App):
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.title = "CNC App"
+        self.icon = "icon.png"
+
+        self.data_frame_type_operation : pd.DataFrame = None
+
+
 
     def build(self):
         # Main layout
@@ -45,6 +60,23 @@ class CNCApp(App):
             header_layout.add_widget(header_label)
 
         main_layout.add_widget(header_layout)
+  
+
+
+        spinner_block = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label = LightLabel(text="Operation:", size_hint=(None, 1), width=120)
+        self.spinner = LightSpinner(
+            text='Select Operation',
+            values=OPERATIONS,
+            size_hint=(1, None),
+            height=44,
+
+        )
+        self.spinner.bind(text=self.select_operation)
+
+        spinner_block.add_widget(spinner_label)
+        spinner_block.add_widget(self.spinner)
+        main_layout.add_widget(spinner_block)
 
         # Label
         self.label = LightLabel(text="Select a CNC Tool", font_size='20sp')
@@ -71,3 +103,11 @@ class CNCApp(App):
     def select_tool(self, tool):
         self.label.text = f"Selected Tool: {tool}"
         self.main_button.text = tool
+
+    def select_operation(self, spinner, text):
+        print(f"Selected operation: {text}")  # You can update this method to handle the selection
+
+        self.data_frame_type_operation = pd.read_csv(
+            f"./app/data/operation/{text.lower()}.csv"
+        )
+

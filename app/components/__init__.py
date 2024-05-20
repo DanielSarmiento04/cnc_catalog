@@ -4,8 +4,12 @@ from .buttons import (
 from .labels import (
     LightLabel
 )
+from .spinners import (
+    LightSpinner
+)
 
 __all__ = (
     'LightButton',
-    'LightLabel'
+    'LightLabel',
+    'LightSpinner',
 )

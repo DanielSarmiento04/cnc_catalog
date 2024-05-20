@@ -1,0 +1,341 @@
+type,Nombre,D1,D,Api_max,z
+PL1,Dodeka Mini de alto avance 15° - Fresas de mango Screw-On,25,29,1.6,3
+PL1,Dodeka Mini de alto avance 15° - Fresas de mango Screw-On,32,29,1.6,4
+PL1,Dodeka Mini de alto avance 15° - Fresas de mango cilíndricas,25,20,1.6,3
+PL1,Dodeka Mini de alto avance 15° - Fresas de mango cilíndricas,32,25,1.6,3
+PL1,Dodeka Mini de alto avance 15° - Fresas de plato,40,22,1.6,5
+PL1,Dodeka Mini de alto avance 15° - Fresas de plato,50,22,1.6,5
+PL1,Dodeka Mini de alto avance 15° - Fresas de plato,63,22,1.6,6
+PL1,Dodeka Mini de alto avance 15° - Fresas de plato,80,27,1.6,8
+PL2,Dodeka Mini 45° - Fresas de mango Screw-On,25,29,3.2,3
+PL2,Dodeka Mini 45° - Fresas de mango Screw-On,32,29,3.2,3
+PL2,Dodeka Mini 45° - Fresas de mango Screw-On,32,29,3.2,4
+PL2,Dodeka Mini 45° - Fresas de mango Weldon,25,20,3.2,3
+PL2,Dodeka Mini 45° - Fresas de mango Weldon,32,25,3.2,3
+PL2,Dodeka Mini 45° - Fresas de mango Weldon,32,25,3.2,4
+PL2,Dodeka Mini 45° • Fresas de mango cilíndrico,25,20,3.2,2
+PL2,Dodeka Mini 45° • Fresas de mango cilíndrico,25,20,3.2,3
+PL2,Dodeka Mini 45° • Fresas de mango cilíndrico,25,25,3.2,3
+PL2,Dodeka Mini 45° • Fresas de mango cilíndrico,32,25,3.2,3
+PL2,Dodeka Mini 45° • Fresas de mango cilíndrico,32,25,3.2,4
+PL2,Dodeka Mini 45° • Fresas de plato,40,22,3.2,4
+PL2,Dodeka Mini 45° • Fresas de plato,40,22,3.2,5
+PL2,Dodeka Mini 45° • Fresas de plato,50,22,3.2,4
+PL2,Dodeka Mini 45° • Fresas de plato,50,22,3.2,5
+PL2,Dodeka Mini 45° • Fresas de plato,50,22,3.2,6
+PL2,Dodeka Mini 45° • Fresas de plato,63,22,3.2,4
+PL2,Dodeka Mini 45° • Fresas de plato,63,22,3.2,6
+PL2,Dodeka Mini 45° • Fresas de plato,63,22,3.2,8
+PL2,Dodeka Mini 45° • Fresas de plato,80,27,3.2,5
+PL2,Dodeka Mini 45° • Fresas de plato,80,27,3.2,8
+PL2,Dodeka Mini 45° • Fresas de plato,80,27,3.2,10
+PL2,Dodeka Mini 45° • Fresas de plato,100,32,3.2,6
+PL2,Dodeka Mini 45° • Fresas de plato,100,32,3.2,9
+PL2,Dodeka Mini 45° • Fresas de plato,100,32,3.2,12
+PL2,Dodeka Mini 45° • Fresas de plato,125,40,3.2,8
+PL2,Dodeka Mini 45° • Fresas de plato,125,40,3.2,12
+PL2,Dodeka Mini 45° • Fresas de plato,125,40,3.2,16
+PL3,Dodeka Mini 60° • Fresas de plato,40,22,4.3,4
+PL3,Dodeka Mini 60° • Fresas de plato,40,22,4.3,5
+PL3,Dodeka Mini 60° • Fresas de plato,50,22,4.3,4
+PL3,Dodeka Mini 60° • Fresas de plato,50,22,4.3,5
+PL3,Dodeka Mini 60° • Fresas de plato,63,22,4.3,4
+PL3,Dodeka Mini 60° • Fresas de plato,63,22,4.3,6
+PL3,Dodeka Mini 60° • Fresas de plato,80,27,4.3,5
+PL3,Dodeka Mini 60° • Fresas de plato,80,27,4.3,8
+PL3,Dodeka Mini 60° • Fresas de plato,100,32,4.3,6
+PL3,Dodeka Mini 60° • Fresas de plato,100,32,4.3,9
+PL3,Dodeka Mini 60° • Fresas de plato,125,40,4.3,8
+PL3,Dodeka Mini 60° • Fresas de plato,125,40,4.3,12
+PL4,Dodeka alto avance 15° • Fresas de plato,50,22,2.2,4
+PL4,Dodeka alto avance 15° • Fresas de plato,63,22,2.2,5
+PL4,Dodeka alto avance 15° • Fresas de plato,80,27,2.2,6
+PL4,Dodeka alto avance 15° • Fresas de plato,100,32,2.2,8
+PL4,Dodeka alto avance 15° • Fresas de plato,125,40,2.2,9
+PL4,Dodeka alto avance 15° • Fresas de plato,160,40,2.2,12
+PL5,Dodeka 45° • Fresas de mango Weldon,40,25,4.5,3
+PL5,Dodeka 45° • Fresas de mango Weldon,40,25,4.5,4
+PL5,Dodeka 45° • Fresas de mango cilíndrico,40,25,4.5,3
+PL5,Dodeka 45° • Fresas de mango cilíndrico,40,25,4.5,4
+PL5,Dodeka 45° • Fresas de plato,40,22,4.5,4
+PL5,Dodeka 45° • Fresas de plato,50,22,4.5,4
+PL5,Dodeka 45° • Fresas de plato,50,22,4.5,5
+PL5,Dodeka 45° • Fresas de plato,63,22,4.5,5
+PL5,Dodeka 45° • Fresas de plato,63,22,4.5,6
+PL5,Dodeka 45° • Fresas de plato,63,22,4.5,7
+PL5,Dodeka 45° • Fresas de plato,80,27,4.5,5
+PL5,Dodeka 45° • Fresas de plato,80,27,4.5,6
+PL5,Dodeka 45° • Fresas de plato,80,27,4.5,9
+PL5,Dodeka 45° • Fresas de plato,100,32,4.5,6
+PL5,Dodeka 45° • Fresas de plato,100,32,4.5,8
+PL5,Dodeka 45° • Fresas de plato,100,32,4.5,11
+PL5,Dodeka 45° • Fresas de plato,125,40,4.5,8
+PL5,Dodeka 45° • Fresas de plato,125,40,4.5,10
+PL5,Dodeka 45° • Fresas de plato,125,40,4.5,14
+PL5,Dodeka 45° • Fresas de plato,160,40,4.5,10
+PL5,Dodeka 45° • Fresas de plato,160,40,4.5,12
+PL5,Dodeka 45° • Fresas de plato,160,40,4.5,16
+PL5,Dodeka 45° • Fresas de plato,200,60,4.5,16
+PL5,Dodeka 45° • Fresas de plato,250,60,4.5,20
+PL5,Dodeka 45° • Fresas de plato,315,60,4.5,24
+PL6,Dodeka MAX 45° • Fresas de plato,80,27,8,4
+PL6,Dodeka MAX 45° • Fresas de plato,100,32,8,5
+PL6,Dodeka MAX 45° • Fresas de plato,125,40,8,6
+PL6,Dodeka MAX 45° • Fresas de plato,160,40,8,9
+PL6,Dodeka MAX 45° • Fresas de plato,200,60,8,10
+PL6,Dodeka MAX 45° • Fresas de plato,200,60,8,12
+PL6,Dodeka MAX 45° • Fresas de plato,250,60,8,12
+PL6,Dodeka MAX 45° • Fresas de plato,250,60,8,14
+PL6,Dodeka MAX 45° • Fresas de plato,315,60,8,14
+PL6,Dodeka MAX 45° • Fresas de plato,315,60,8,18
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,50,22,5.5,5
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,63,22,5.5,6
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,80,27,5.5,8
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,80,27,5.5,10
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,100,32,5.5,10
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,100,32,5.5,14
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,125,40,5.5,14
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,125,40,5.5,18
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,160,40,5.5,16
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,160,40,5.5,22
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,200,60,5.5,20
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,200,60,5.5,28
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,250,60,5.5,24
+PL7,Mill 16 • Fresas de plato • Sujeción de cuña ,250,60,5.5,34
+PL7,Mill 16 • Diseño de caja dividida,315,195,5.5,44
+PL7,Mill 16 • Diseño de caja dividida,355,230,5.5,48
+PL7,Mill 16 • Diseño de caja dividida,400,280,5.5,56
+PL7,Mill 16 • Diseño de caja dividida,450,380,5.5,70
+PL7,Mill 16 • Fijacion • Screw-On ,50,22,5.5,4
+PL7,Mill 16 • Fijacion • Screw-On ,63,22,5.5,5
+PL7,Mill 16 • Fijacion • Screw-On ,80,27,5.5,5
+PL7,Mill 16 • Fijacion • Screw-On ,80,27,5.5,7
+PL7,Mill 16 • Fijacion • Screw-On ,100,32,5.5,6
+PL7,Mill 16 • Fijacion • Screw-On ,100,32,5.5,8
+PL7,Mill 16 • Fijacion • Screw-On ,125,40,5.5,8
+PL7,Mill 16 • Fijacion • Screw-On ,125,40,5.5,10
+PL7,Mill 16 • Fijacion • Screw-On ,160,40,5.5,10
+PL7,Mill 16 • Fijacion • Screw-On ,160,40,5.5,12
+PL7,Mill 16 • Fijacion • Screw-On ,200,60,5.5,10
+PL7,Mill 16 • Fijacion • Screw-On ,200,60,5.5,14
+PL7,Mill 16 • Fijacion • Screw-On ,250,60,5.5,12
+PL7,Mill 16 • Fijacion • Screw-On ,250,60,5.5,16
+PL8,KSSM 45° • Fresas de plato  ,40,16,6.6,3
+PL8,KSSM 45° • Fresas de plato  ,50,22,6.6,3
+PL8,KSSM 45° • Fresas de plato  ,50,22,6.6,4
+PL8,KSSM 45° • Fresas de plato  ,63,22,6.6,4
+PL8,KSSM 45° • Fresas de plato  ,63,22,6.6,5
+PL8,KSSM 45° • Fresas de plato  ,80,27,6.6,5
+PL8,KSSM 45° • Fresas de plato  ,80,27,6.6,6
+PL8,KSSM 45° • Fresas de plato  ,100,32,6.6,5
+PL8,KSSM 45° • Fresas de plato  ,100,32,6.6,7
+PL8,KSSM 45° • Fresas de plato  ,125,40,6.6,6
+PL8,KSSM 45° • Fresas de plato  ,125,40,6.6,8
+PL8,KSSM 45° • Fresas de plato  ,160,40,6.6,7
+PL8,KSSM 45° • Fresas de plato  ,160,40,6.6,10
+PL9,KSOM Mini • Fresas de mango screw-on  ,32,29,3.5,3
+PL9,KSOM Mini • Fresas de mango screw-on  ,40,29,3.5,4
+PL9,KSOM Mini • Fresas de mango Weldon,32,20,3.5,2
+PL9,KSOM Mini • Fresas de mango Weldon,32,20,3.5,3
+PL9,KSOM Mini • Fresas de mango Weldon,32,25,3.5,3
+PL9,KSOM Mini • Fresas de mango Weldon,40,25,3.5,3
+PL9,KSOM Mini • Fresas de mango Weldon,40,25,3.5,4
+PL9,KSOM Mini • Fresas de mango Weldon,40,32,3.5,4
+PL9,KSOM Mini • Fresas de mango cilindrico,32,20,3.5,3
+PL9,KSOM Mini • Fresas de mango cilindrico,32,32,3.5,3
+PL9,KSOM Mini • Fresas de plato,40,16,3.5,4
+PL9,KSOM Mini • Fresas de plato,50,22,3.5,4
+PL9,KSOM Mini • Fresas de plato,50,22,3.5,6
+PL9,KSOM Mini • Fresas de plato,63,22,3.5,5
+PL9,KSOM Mini • Fresas de plato,63,22,3.5,7
+PL9,KSOM Mini • Fresas de plato,80,27,3.5,6
+PL9,KSOM Mini • Fresas de plato,80,27,3.5,9
+PL9,KSOM Mini • Fresas de plato,100,32,3.5,7
+PL9,KSOM Mini • Fresas de plato,100,32,3.5,10
+PL9,KSOM Mini • Fresas de plato,125,40,3.5,8
+PL9,KSOM Mini • Fresas de plato,125,40,3.5,12
+PL9,KSOM Mini • Fresas de plato,160,40,3.5,10
+PL9,KSOM Mini • Fresas de plato,160,40,3.5,16
+PL10,KSOM  • Fresas de plato,63,22,5,4
+PL10,KSOM  • Fresas de plato,63,22,5,5
+PL10,KSOM  • Fresas de plato,80,27,5,4
+PL10,KSOM  • Fresas de plato,80,27,5,5
+PL10,KSOM  • Fresas de plato,100,32,5,5
+PL10,KSOM  • Fresas de plato,100,32,5,8
+PL10,KSOM  • Fresas de plato,125,40,5,6
+PL10,KSOM  • Fresas de plato,125,40,5,10
+PL10,KSOM  • Fresas de plato,160,40,5,7
+PL10,KSOM  • Fresas de plato,160,40,5,12
+PL11,KSSM8+ • IC 10 mm • Fresas de plato,50,22,9.16,5
+PL11,KSSM8+ • IC 10 mm • Fresas de plato,50,22,9.16,6
+PL11,KSSM8+ • IC 10 mm • Fresas de plato,63,22,9.16,5
+PL11,KSSM8+ • IC 10 mm • Fresas de plato,63,22,9.16,7
+PL11,KSSM8+ • IC 10 mm • Fresas de plato,80,27,9.16,7
+PL11,KSSM8+ • IC 10 mm • Fresas de plato,80,27,9.16,9
+PL11,KSSM8+ • IC 10 mm • Fresas de plato,100,32,9.16,8
+PL11,KSSM8+ • IC 10 mm • Fresas de plato,100,32,9.16,11
+PL12,"KSSM8+ • IC 12,7 mm • Fresas de plato",50,22,6,5
+PL12,"KSSM8+ • IC 12,7 mm • Fresas de plato",63,22,6,5
+PL12,"KSSM8+  • IC 12,7 mm• Fresas de plato",63,22,6,7
+PL12,"KSSM8+  • IC 12,7 mm• Fresas de plato",80,27,6,7
+PL12,"KSSM8+  • IC 12,7 mm• Fresas de plato",80,27,6,9
+PL12,"KSSM8+  • IC 12,7 mm• Fresas de plato",100,32,6,8
+PL12,"KSSM8+  • IC 12,7 mm• Fresas de plato",100,32,6,11
+PL12,"KSSM8+  • IC 12,7 mm• Fresas de plato",125,40,6,9
+PL12,"KSSM8+  • IC 12,7 mm• Fresas de plato",125,40,6,14
+PL12,"KSSM8+  • IC 12,7 mm• Fresas de plato",160,40,6,12
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,51,22,1,4
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,51,22,1,6
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,69,27,1,6
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,69,27,1,9
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,89,32,1,8
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,89,32,1,12
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,114,40,1,10
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,114,40,1,16
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,149,40,1,12
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,149,40,1,20
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,189,60,1,14
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,189,60,1,24
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,235,60,1,18
+PL13,Fresas de planeado acabado • Fresas de plato • A derechas • Fix-Perfect™,235,60,1,30
+PL14,Fix - Perfect 70°  • Fresas de plato ,50,62,5.9,4
+PL14,Fix - Perfect 70°  • Fresas de plato ,50,62,5.9,5
+PL14,Fix - Perfect 70°  • Fresas de plato ,50,62,5.9,6
+PL14,Fix - Perfect 70°  • Fresas de plato ,63,75,5.9,5
+PL14,Fix - Perfect 70°  • Fresas de plato ,63,75,5.9,7
+PL14,Fix - Perfect 70°  • Fresas de plato ,63,75,5.9,8
+PL14,Fix - Perfect 70°  • Fresas de plato ,80,92,5.9,6
+PL14,Fix - Perfect 70°  • Fresas de plato ,80,92,5.9,8
+PL14,Fix - Perfect 70°  • Fresas de plato ,80,92,5.9,10
+PL14,Fix - Perfect 70°  • Fresas de plato ,100,112,5.9,8
+PL14,Fix - Perfect 70°  • Fresas de plato ,100,112,5.9,12
+PL14,Fix - Perfect 70°  • Fresas de plato ,100,112,5.9,14
+PL14,Fix - Perfect 70°  • Fresas de plato ,125,137,5.9,10
+PL14,Fix - Perfect 70°  • Fresas de plato ,160,173,5.9,12
+PL14,Fix - Perfect 70°  • Fresas de plato ,160,173,5.9,18
+PL14,Fix - Perfect 70°  • Fresas de plato ,200,212,5.9,16
+PL15,Fix - Perfect 90°  • Fresas de plato ,50,48,6,4
+PL15,Fix - Perfect 90°  • Fresas de plato ,50,48,6,5
+PL15,Fix - Perfect 90°  • Fresas de plato ,63,61,6,6
+PL15,Fix - Perfect 90°  • Fresas de plato ,63,61,6,7
+PL15,Fix - Perfect 90°  • Fresas de plato ,63,61,6,8
+PL15,Fix - Perfect 90°  • Fresas de plato ,80,79,6,6
+PL15,Fix - Perfect 90°  • Fresas de plato ,80,79,6,8
+PL15,Fix - Perfect 90°  • Fresas de plato ,80,79,6,10
+PL15,Fix - Perfect 90°  • Fresas de plato ,100,99,6,8
+PL15,Fix - Perfect 90°  • Fresas de plato ,100,99,6,12
+PL15,Fix - Perfect 90°  • Fresas de plato ,100,98,6,14
+PL15,Fix - Perfect 90°  • Fresas de plato ,125,123,6,10
+PL15,Fix - Perfect 90°  • Fresas de plato ,125,123,6,15
+PL15,Fix - Perfect 90°  • Fresas de plato ,160,158,6,12
+PL15,Fix - Perfect 90°  • Fresas de plato ,160,158,6,18
+PL15,Fix - Perfect 90°  • Fresas de plato ,200,199,6,16
+PL15,Fix - Perfect 90°  • Fresas de plato ,200,199,6,24
+PL16,Fix-Perfect 70° • Fresas de plato • SPHX15T6..,80,94,6.5,7
+PL16,Fix-Perfect 70° • Fresas de plato • SPHX15T6..,100,114,6.5,9
+PL16,Fix-Perfect 70° • Fresas de plato • SPHX15T6..,125,139,6.5,12
+PL16,Fix-Perfect 70° • Fresas de plato • SPHX15T6..,160,174,6.5,10
+PL16,Fix-Perfect 70° • Fresas de plato • SPHX15T6..,160,174,6.5,16
+PL16,Fix-Perfect 70° • Fresas de plato • SPHX15T6..,200,214,6.5,12
+PL17,Fix-Perfect 90° • Fresas de plato • SPHX15T6..,80,78,8,5
+PL17,Fix-Perfect 90° • Fresas de plato • SPHX15T6..,80,78,8,6
+PL17,Fix-Perfect 90° • Fresas de plato • SPHX15T6..,100,99,8,8
+PL17,Fix-Perfect 90° • Fresas de plato • SPHX15T6..,125,123,8,10
+PL17,Fix-Perfect 90° • Fresas de plato • SPHX15T6..,160,158,8,10
+PL17,Fix-Perfect 90° • Fresas de plato • SPHX15T6..,200,198,8,12
+PL18,HexaCut 45°  • Fresas de plato • Diseño monobloque • A derechas ,80,27,6.5,10
+PL18,HexaCut 45°  • Fresas de plato • Diseño monobloque • A derechas ,100,32,6.5,14
+PL18,HexaCut 45°  • Fresas de plato • Diseño monobloque • A derechas ,125,40,6.5,18
+PL18,HexaCut 45°  • Fresas de plato • Diseño monobloque • A derechas ,160,40,6.5,22
+PL19,Fresas de plato HexaCut 60°  • Diseño de fresa monobloque con alojamientos ajustable• A derechas ,80,27,8,8
+PL19,Fresas de plato HexaCut 60°  • Diseño de fresa monobloque con alojamientos ajustable• A derechas ,100,32,8,10
+PL19,Fresas de plato HexaCut 60°  • Diseño de fresa monobloque con alojamientos ajustable• A derechas ,125,40,8,15
+PL19,Fresas de plato HexaCut 60°  • Diseño de fresa monobloque con alojamientos ajustable• A derechas ,160,40,8,20
+PL19,Fresas de plato HexaCut 60°  • Diseño de fresa monobloque con alojamientos ajustable• A derechas ,200,60,8,25
+PL19,Fresas de plato HexaCut 60°  • Diseño de fresa monobloque con alojamientos ajustable• A derechas ,250,60,-,30
+PL19,Fresas de plato HexaCut 60° • Diseño de caja dividida,315,195,-,40
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,63,22,5,6
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,63,22,5,9
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,80,27,5,8
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,80,26,5,12
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,100,32,5,10
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,100,32,5,15
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,125,40,5,18
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,160,40,5,24
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos fijos,200,60,5,30
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos ajustables,63,22,5,9
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos ajustables,80,22,5,12
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos ajustables,100,32,5,15
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos ajustables,125,40,5,18
+PL20,KSSR 84° • Fresas de plato • A derechas • Alojamientos ajustables,160,40,5,24
+PL21,KCFM 45 • Fresas de plato ,80,37,1,6
+PL21,KCFM 45 • Fresas de plato ,100,32,1,6
+PL21,KCFM 45 • Fresas de plato ,125,40,1,8
+PL21,KCFM 45 • Fresas de plato ,160,40,1,8
+PL21,KCFM 45 • Fresas de plato ,200,60,1,12
+PL21,KCFM 45 • Fresas de plato ,250,60,1,18
+PL22,MEGA 45 • Fresas de plato ,125,40,17.2,6
+PL22,MEGA 45 • Fresas de plato ,160,40,17.2,7
+PL22,MEGA 45 • Fresas de plato ,200,60,17.2,7
+PL22,MEGA 45 • Fresas de plato ,250,60,17.2,9
+PL22,MEGA 45 • Fresas de plato ,250,60,17.2,11
+PL22,MEGA 45 • Fresas de plato ,315,60,17.2,10
+PL22,MEGA 45 • Fresas de plato ,315,60,17.2,13
+PL23,MEGA 60 • Fresas de plato ,125,40,21.4,6
+PL23,MEGA 60 • Fresas de plato ,160,40,21.4,7
+PL23,MEGA 60 • Fresas de plato ,200,60,21.4,7
+PL23,MEGA 60 • Fresas de plato ,200,60,21.4,9
+PL23,MEGA 60 • Fresas de plato ,250,60,21.4,9
+PL23,MEGA 60 • Fresas de plato ,250,60,21.4,11
+PL23,MEGA 60 • Fresas de plato ,315,60,21.4,10
+PL23,MEGA 60 • Fresas de plato ,315,60,21.4,13
+PL24,MEGA 90 • Fresas de plato ,125,67,25.5,6
+PL24,MEGA 90 • Fresas de plato ,160,67,25.5,7
+PL24,MEGA 90 • Fresas de plato ,200,102,25.5,7
+PL24,MEGA 90 • Fresas de plato ,200,102,25.5,9
+PL24,MEGA 90 • Fresas de plato ,250,102,25.5,9
+PL24,MEGA 90 • Fresas de plato ,250,102,25.5,11
+PL24,MEGA 90 • Fresas de plato ,315,102,25.5,10
+PL24,MEGA 90 • Fresas de plato ,315,102,25.5,13
+PL25,Fresas de planeado  • Serie KBDM,63,-,-,6
+PL25,Fresas de planeado  • Serie KBDM,80,-,-,8
+PL25,Fresas de planeado  • Serie KBDM,100,-,-,12
+PL25,Fresas de planeado  • Serie KBDM,125,-,-,16
+PL25,Fresas de planeado  • Serie KBDM,160,-,-,18
+PL25,Fresas de planeado  • Serie KBDM,200,-,-,24
+PL25,Fresas de planeado  • Serie KBDM,250,-,-,30
+PL26,KSCM AluMill • Monobloque HSK63A,63,63,3,8
+PL26,KSCM AluMill • Fresas de plato,80,27,3,10
+PL26,KSCM AluMill • Fresas de plato,100,32,3,12
+PL26,KSCM AluMill • Fresas de plato,125,40,3,16
+PL26,KSCM AluMill • Fresas de plato,160,40,3,18
+PL26,KSCM AluMill • Fresas de plato,200,60,3,24
+PL26,KSCM AluMill • Fresas de plato,250,60,3,30
+PL27,Fix-Perfect • Fresas de plato • Línea M • Alojamientos fijos,40,16,9.5,2
+PL27,Fix-Perfect • Fresas de plato • Línea M • Alojamientos fijos,50,22,9.5,3
+PL27,Fix-Perfect • Fresas de plato • Línea M • Alojamientos fijos,63,22,9.5,3
+PL27,Fix-Perfect • Fresas de plato • Línea M • Alojamientos fijos,80,27,9.5,3
+PL27,Fix-Perfect • Fresas de plato • Línea M • Alojamientos fijos,100,32,9.5,4
+PL27,Fix-Perfect • Fresas de plato • Línea M • Alojamientos fijos,125,40,9.5,5
+PL27,Fix-Perfect • Fresas de plato • Línea M • Alojamientos fijos,160,40,9.5,6
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,40,16,9.5,2
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,50,22,9.5,3
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,63,22,9.5,4
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,80,27,9.5,5
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,80,27,9.5,6
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,100,32,9.5,6
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,100,32,9.5,8
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,125,40,9.5,8
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,125,40,9.5,10
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,160,40,9.5,10
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,200,60,9.5,12
+PL27,Fix-Perfect • Fresas de plato • Línea PM • Alojamientos fijos y ajustables,250,60,9.5,16
+PL27,Fix-Perfect • Fresas de mango • Línea HPM • Todos los alojamientos ajustables,50,32,9.5,3
+PL27,Fix-Perfect • Fresas de plato • Línea HPM • Todos los alojamientos ajustables,63,22,9.5,4
+PL27,Fix-Perfect • Fresas de plato • Línea HPM • Todos los alojamientos ajustables,80,27,9.5,5
+PL27,Fix-Perfect • Fresas de plato • Línea HPM • Todos los alojamientos ajustables,100,32,9.5,6
+PL27,Fix-Perfect • Fresas de plato • Línea HPM • Todos los alojamientos ajustables,125,40,9.5,8
+PL27,Fix-Perfect • Fresas de plato • Línea HPM • Todos los alojamientos ajustables,160,40,9.5,10
+PL27,Fix-Perfect • Fresas de plato • Línea HPM • Todos los alojamientos ajustables,200,60,9.5,12
+PL27,Fix-Perfect • Fresas de plato • Línea HSM • Todos los alojamientos ajustables,50,,9.5,3
+PL27,Fix-Perfect • Fresas de plato • Línea HSM • Todos los alojamientos ajustables,80,,9.5,5
