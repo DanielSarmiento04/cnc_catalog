@@ -60,7 +60,8 @@ class CNCApp(App):
                 font_size=30,
                 color=(0, 0, 0, 1),
                 size_hint=(1, None),
-                height=44
+                height=44,
+                bold=True,
             )
         )
         
@@ -70,15 +71,16 @@ class CNCApp(App):
                 font_size=30,
                 color=(0, 0, 0, 1),
                 size_hint=(1, None),
-                height=44
+                height=44,
+                bold=True,
             )
         )
 
-        headers_widget= HeadersContent(cols=3)
+        row_1 = HeadersContent(cols=3)
 
-        spinner_block_option = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_option = LightLabel(text="Operación:", size_hint=(None, 1), width=120)
-        self.spinner_operation_options = LightSpinner(
+        spinner_block_option            = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_option            = LightLabel(text="Operación:", size_hint=(None, 1), width=120)
+        self.spinner_operation_options  = LightSpinner(
             text='Seleccione operación',
             values=OPERATIONS,
             size_hint=(1, None),
@@ -86,13 +88,12 @@ class CNCApp(App):
         )
         self.spinner_operation_options.bind(text=self.select_operation)
         spinner_block_option.add_widget(spinner_label_option)
-        spinner_block_option.add_widget(self.spinner_operation_options)
-        
-        headers_widget.add_widget(spinner_block_option)
+        spinner_block_option.add_widget(self.spinner_operation_options) 
+        row_1.add_widget(spinner_block_option)
 
-        spinner_block_diameter = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_diameter = LightLabel(text="Diámetros:", size_hint=(None, 1), width=120)
-        self.spinner_diameter = LightSpinner(
+        spinner_block_diameter          = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_diameter          = LightLabel(text="Diámetros:", size_hint=(None, 1), width=120)
+        self.spinner_diameter           = LightSpinner(
             text='Seleccione diámetro',
             values=[],
             size_hint=(1, None),
@@ -101,12 +102,11 @@ class CNCApp(App):
         self.spinner_diameter.bind(text=self.select_diameter)
         spinner_block_diameter.add_widget(spinner_label_diameter)
         spinner_block_diameter.add_widget(self.spinner_diameter)
-        
-        headers_widget.add_widget(spinner_block_diameter)
+        row_1.add_widget(spinner_block_diameter)
 
-        spinner_block_range_operation = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_range_operation = LightLabel(text="Rango de operación:", size_hint=(None, 1), width=120)
-        self.spinner_range_operation = LightSpinner(
+        spinner_block_range_operation    = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_range_operation    = LightLabel(text="Rango de operación:", size_hint=(None, 1), width=120)
+        self.spinner_range_operation     = LightSpinner(
             text='Seleccione rango de operación',
             values=OPERATION_RANGE,
             size_hint=(1, None),
@@ -115,11 +115,55 @@ class CNCApp(App):
         self.spinner_range_operation.bind(text=self.select_range_operation)
         spinner_block_range_operation.add_widget(spinner_label_range_operation)
         spinner_block_range_operation.add_widget(self.spinner_range_operation)
-        
-        headers_widget.add_widget(spinner_block_range_operation)
+        row_1.add_widget(spinner_block_range_operation)
+        main_layout.add_widget(row_1)
+
+        row_2 = HeadersContent(cols=3)
+
+        spinner_block_ap1                = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_ap1                = LightLabel(text="Ap1:", size_hint=(None, 1), width=120)
+        self.spinner_operation_ap1s      = LightSpinner(
+            text='Seleccione Ap1',
+            values=[],
+            size_hint=(1, None),
+            height=44,
+        )
+        self.spinner_operation_ap1s.bind(text=self.select_ap1)
+        spinner_block_ap1.add_widget(spinner_label_ap1)
+        spinner_block_ap1.add_widget(self.spinner_operation_ap1s) 
+        row_2.add_widget(spinner_block_ap1)
+
+        # spinner_block_diameter          = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        # spinner_label_diameter          = LightLabel(text="Diámetros:", size_hint=(None, 1), width=120)
+        # self.spinner_diameter           = LightSpinner(
+        #     text='Seleccione diámetro',
+        #     values=[],
+        #     size_hint=(1, None),
+        #     height=44,
+        # )
+        # self.spinner_diameter.bind(text=self.select_diameter)
+        # spinner_block_diameter.add_widget(spinner_label_diameter)
+        # spinner_block_diameter.add_widget(self.spinner_diameter)
+        # row_2.add_widget(spinner_block_diameter)
+
+        spinner_block_range_operation    = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_range_operation    = LightLabel(text="Rango de operación:", size_hint=(None, 1), width=120)
+        self.spinner_range_operation     = LightSpinner(
+            text='Seleccione rango de operación',
+            values=OPERATION_RANGE,
+            size_hint=(1, None),
+            height=44,
+        )
+        self.spinner_range_operation.bind(text=self.select_range_operation)
+        spinner_block_range_operation.add_widget(spinner_label_range_operation)
+        spinner_block_range_operation.add_widget(self.spinner_range_operation)
+        row_2.add_widget(spinner_block_range_operation)
+        main_layout.add_widget(row_2)
+
+
+
 
         
-        main_layout.add_widget(headers_widget)
         return main_layout
 
     def _update_rect(self, *args):
@@ -142,11 +186,11 @@ class CNCApp(App):
         self.data_frame_type_operation = pd.read_csv(
             f"./app/data/operation/{text.lower()}.csv"
         )
-        self.spinner_diameter.values = self.data_frame_type_operation['D1'] \
-                                        .unique() \
-                                        .astype(str) \
+        self.spinner_diameter.values = self.data_frame_type_operation['D1']  \
+                                        .unique()                            \
+                                        .astype(str)                         \
                                         .tolist()
-
+    
         # Apply light theme to new options
         self.spinner_diameter.option_cls.background_color = (0.9, 0.9, 0.9, 1)
         self.spinner_diameter.option_cls.color = (0, 0, 0, 1)  # Black text
@@ -157,8 +201,25 @@ class CNCApp(App):
         '''
         print(f"Selected diameter: {text}")  # Handle diameter selection as needed
 
+
+        self.spinner_operation_ap1s.values   = self.data_frame_type_operation[
+            (
+                self.data_frame_type_operation['D1'] == int(text)
+            )
+        ]['Api_max'] \
+                    .unique() \
+                    .astype(str) \
+                    .tolist()
+
     def select_range_operation(self, spinner, text):
         '''
             function to configure the spinner of the range operation event
         '''
         print(f"Selected range operation: {text}")  # Handle range operation selection as needed
+
+
+    def select_ap1(self, spinner, text):
+        '''
+            function to configure the spinner of the ap1 event
+        '''
+        print(f"Selected ap1: {text}")
