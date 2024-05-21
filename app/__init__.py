@@ -80,12 +80,12 @@ class CNCApp(App):
 
         row_1 = HeadersContent(cols=3)
 
-        spinner_block_option            = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_option            = LightLabel(text="Operación:", size_hint=(None, 1), width=120)
+        spinner_block_option            = BoxLayout(orientation='horizontal', size_hint=(0.8, None), height=44, spacing=5, padding=[5, 0, 5, 0])
+        spinner_label_option            = LightLabel(text="Operación:", size_hint=(0.6, 1), width=120)
         self.spinner_operation_options  = LightSpinner(
             text='Seleccione operación',
             values=OPERATIONS,
-            size_hint=(1, None),
+            size_hint=(0.5, None),
             height=44,
         )
         self.spinner_operation_options.bind(text=self.select_operation)
@@ -93,12 +93,12 @@ class CNCApp(App):
         spinner_block_option.add_widget(self.spinner_operation_options) 
         row_1.add_widget(spinner_block_option)
 
-        spinner_block_diameter          = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_diameter          = LightLabel(text="Diámetros:", size_hint=(None, 1), width=120)
+        spinner_block_diameter          = BoxLayout(orientation='horizontal', size_hint=(0.8, None), height=44, spacing=5, padding=[5, 0, 5, 0])
+        spinner_label_diameter          = LightLabel(text="Diámetros:", size_hint=(0.6, 1), width=120)
         self.spinner_diameter           = LightSpinner(
             text='Seleccione diámetro',
             values=[],
-            size_hint=(1, None),
+            size_hint=(0.5, None),
             height=44,
         )
         self.spinner_diameter.bind(text=self.select_diameter)
@@ -106,12 +106,12 @@ class CNCApp(App):
         spinner_block_diameter.add_widget(self.spinner_diameter)
         row_1.add_widget(spinner_block_diameter)
 
-        spinner_block_range_operation    = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_range_operation    = LightLabel(text="Rango de operación:", size_hint=(None, 1), width=120)
+        spinner_block_range_operation    = BoxLayout(orientation='horizontal', size_hint=(0.8, None), height=44, spacing=5, padding=[5, 0, 5, 0])
+        spinner_label_range_operation    = LightLabel(text="Rango de operación:", size_hint=(0.6, 1), width=120)
         self.spinner_range_operation     = LightSpinner(
-            text='Seleccione rango de operación',
+            text='Seleccione rango',
             values=OPERATION_RANGE,
-            size_hint=(1, None),
+            size_hint=(0.5, None),
             height=44,
         )
         self.spinner_range_operation.bind(text=self.select_range_operation)
@@ -122,12 +122,12 @@ class CNCApp(App):
 
         row_2 = HeadersContent(cols=3)
 
-        spinner_block_ap1                = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_ap1                = LightLabel(text="Ap1:", size_hint=(None, 1), width=120)
+        spinner_block_ap1                = BoxLayout(orientation='horizontal', size_hint=(0.8, None), height=44, spacing=5, padding=[5, 0, 5, 0])
+        spinner_label_ap1                = LightLabel(text="Ap1:", size_hint=(0.6, 1), width=120)
         self.spinner_operation_ap1s      = LightSpinner(
             text='Seleccione Ap1',
             values=[],
-            size_hint=(1, None),
+            size_hint=(0.5, None),
             height=44,
         )
         self.spinner_operation_ap1s.bind(text=self.select_ap1)
@@ -135,12 +135,12 @@ class CNCApp(App):
         spinner_block_ap1.add_widget(self.spinner_operation_ap1s) 
         row_2.add_widget(spinner_block_ap1)
 
-        spinner_block_category          = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_category          = LightLabel(text="Categoría:", size_hint=(None, 1), width=120)
+        spinner_block_category          = BoxLayout(orientation='horizontal', size_hint=(0.8, None), height=44, spacing=5, padding=[5, 0, 5, 0])
+        spinner_label_category          = LightLabel(text="Categoría:", size_hint=(0.6, 1), width=120)
         self.spinner_category           = LightSpinner(
             text='Seleccione categoría',
             values=CATEGORIES,
-            size_hint=(1, None),
+            size_hint=(0.5, None),
             height=44,
         )
         self.spinner_category.bind(text=self.select_category)
@@ -148,12 +148,12 @@ class CNCApp(App):
         spinner_block_category.add_widget(self.spinner_category)
         row_2.add_widget(spinner_block_category)
 
-        spinner_block_group_material    = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_group_material    = LightLabel(text="Grupo", size_hint=(None, 1), width=120)
+        spinner_block_group_material    = BoxLayout(orientation='horizontal', size_hint=(0.8, None), height=44, spacing=5, padding=[5, 0, 5, 0])
+        spinner_label_group_material    = LightLabel(text="Grupo", size_hint=(0.6, 1), width=120)
         self.spinner_group_material     = LightSpinner(
             text='Seleccione categoría',
             values=[],
-            size_hint=(1, None),
+            size_hint=(0.5, None),
             height=44,
         )
         self.spinner_group_material.bind(text=self.select_group_material)
@@ -165,18 +165,18 @@ class CNCApp(App):
 
         row_3 = HeadersContent(cols=3)
 
-        spinner_block_ap1                = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_ap1                = LightLabel(text="Ap1:", size_hint=(None, 1), width=120)
-        self.spinner_operation_ap1s      = LightSpinner(
-            text='Seleccione Ap1',
+        spinner_block_specific_material                = BoxLayout(orientation='horizontal', size_hint=(0.8, None), height=44, spacing=5, padding=[5, 0, 5, 0])
+        spinner_label_specific_material                = LightLabel(text="Material Especifico", size_hint=(0.6, 1), width=120)
+        self.spinner_operation_specific_materials      = LightSpinner(
+            text='Seleccione material especifico',
             values=[],
-            size_hint=(1, None),
+            size_hint=(0.5, None),
             height=44,
         )
-        self.spinner_operation_ap1s.bind(text=self.select_ap1)
-        spinner_block_ap1.add_widget(spinner_label_ap1)
-        spinner_block_ap1.add_widget(self.spinner_operation_ap1s) 
-        row_3.add_widget(spinner_block_ap1)
+        self.spinner_operation_specific_materials.bind(text=self.select_specific_material)
+        spinner_block_specific_material.add_widget(spinner_label_specific_material)
+        spinner_block_specific_material.add_widget(self.spinner_operation_specific_materials) 
+        row_3.add_widget(spinner_block_specific_material)
 
         # spinner_block_category          = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
         # spinner_label_category          = LightLabel(text="Categoría:", size_hint=(None, 1), width=120)
@@ -203,7 +203,7 @@ class CNCApp(App):
         # spinner_block_group_material.add_widget(spinner_label_group_material)
         # spinner_block_group_material.add_widget(self.spinner_group_material)
         # row_3.add_widget(spinner_block_group_material)
-        # main_layout.add_widget(row_3)
+        main_layout.add_widget(row_3)
 
 
         return main_layout
@@ -264,12 +264,32 @@ class CNCApp(App):
 
         self.spinner_group_material.values = self.data_frame_type_material.columns.tolist()
 
+        # Apply light theme to new options
+        self.spinner_group_material.option_cls.background_color = (0.9, 0.9, 0.9, 1)
+        self.spinner_group_material.option_cls.color = (0, 0, 0, 1)  # Black text
+
 
     def select_group_material(self, spinner, text):
         '''
             function to configure the spinner of the group material event
         '''
         print(f"Selected group material: {text}")
+
+        self.spinner_operation_specific_materials.values = self.data_frame_type_material[text] \
+                                                            .unique() \
+                                                            .astype(str) \
+                                                            .tolist()
+        # Apply light theme to new options
+        self.spinner_operation_specific_materials.option_cls.background_color = (0.9, 0.9, 0.9, 1)
+        self.spinner_operation_specific_materials.option_cls.color = (0, 0, 0, 1)  # Black text
+
+
+    def select_specific_material(self, spinner, text):
+        '''
+            function to configure the spinner of the specific material event
+        '''
+        print(f"Selected specific material: {text}")
+
 
     def select_range_operation(self, spinner, text):
         '''

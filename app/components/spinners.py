@@ -24,3 +24,4 @@ class LightSpinner(Spinner):
         self.background_color = (0.9, 0.9, 0.9, 1)  # Light gray background
         self.color = (0, 0, 0, 1)  # Black text
         self.dropdown_cls = LightSpinnerDropDown  # Use custom dropdown class
+
