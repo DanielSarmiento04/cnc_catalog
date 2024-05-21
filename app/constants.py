@@ -1,6 +1,6 @@
 
 
-DIAMETERS      = [
+DIAMETERS       = [
     25,
     32, 
     40,
@@ -22,8 +22,8 @@ OPERATION_RANGE = [
 ]
 
 CATEGORIES      = [
-    'Acero',
-    'Acero Inoxidable',
+    'Aceros',
+    'Aceros Inoxidables',
     'Aleacion Alta Temperatura',
     'Fundicion',
     'Material No Ferroso',

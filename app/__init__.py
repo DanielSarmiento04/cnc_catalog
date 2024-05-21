@@ -15,7 +15,8 @@ from .components import (
 from .constants import (
     DIAMETERS,
     OPERATIONS,
-    OPERATION_RANGE
+    OPERATION_RANGE,
+    CATEGORIES
 )
 from kivy.core.window import Window
 from kivy.uix.spinner import Spinner
@@ -41,6 +42,8 @@ class CNCApp(App):
         self.title = "CNC App"
         self.icon = "icon.png"
         self.data_frame_type_operation:pd.DataFrame = None
+        self.data_frame_type_material:pd.DataFrame  = None
+
 
     def build(self):
         # Main layout
@@ -132,37 +135,77 @@ class CNCApp(App):
         spinner_block_ap1.add_widget(self.spinner_operation_ap1s) 
         row_2.add_widget(spinner_block_ap1)
 
-        # spinner_block_diameter          = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        # spinner_label_diameter          = LightLabel(text="Diámetros:", size_hint=(None, 1), width=120)
-        # self.spinner_diameter           = LightSpinner(
-        #     text='Seleccione diámetro',
+        spinner_block_category          = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_category          = LightLabel(text="Categoría:", size_hint=(None, 1), width=120)
+        self.spinner_category           = LightSpinner(
+            text='Seleccione categoría',
+            values=CATEGORIES,
+            size_hint=(1, None),
+            height=44,
+        )
+        self.spinner_category.bind(text=self.select_category)
+        spinner_block_category.add_widget(spinner_label_category)
+        spinner_block_category.add_widget(self.spinner_category)
+        row_2.add_widget(spinner_block_category)
+
+        spinner_block_group_material    = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_group_material    = LightLabel(text="Grupo", size_hint=(None, 1), width=120)
+        self.spinner_group_material     = LightSpinner(
+            text='Seleccione categoría',
+            values=[],
+            size_hint=(1, None),
+            height=44,
+        )
+        self.spinner_group_material.bind(text=self.select_group_material)
+        spinner_block_group_material.add_widget(spinner_label_group_material)
+        spinner_block_group_material.add_widget(self.spinner_group_material)
+        row_2.add_widget(spinner_block_group_material)
+        main_layout.add_widget(row_2)
+        
+
+        row_3 = HeadersContent(cols=3)
+
+        spinner_block_ap1                = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        spinner_label_ap1                = LightLabel(text="Ap1:", size_hint=(None, 1), width=120)
+        self.spinner_operation_ap1s      = LightSpinner(
+            text='Seleccione Ap1',
+            values=[],
+            size_hint=(1, None),
+            height=44,
+        )
+        self.spinner_operation_ap1s.bind(text=self.select_ap1)
+        spinner_block_ap1.add_widget(spinner_label_ap1)
+        spinner_block_ap1.add_widget(self.spinner_operation_ap1s) 
+        row_3.add_widget(spinner_block_ap1)
+
+        # spinner_block_category          = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        # spinner_label_category          = LightLabel(text="Categoría:", size_hint=(None, 1), width=120)
+        # self.spinner_category           = LightSpinner(
+        #     text='Seleccione categoría',
+        #     values=CATEGORIES,
+        #     size_hint=(1, None),
+        #     height=44,
+        # )
+        # self.spinner_category.bind(text=self.select_category)
+        # spinner_block_category.add_widget(spinner_label_category)
+        # spinner_block_category.add_widget(self.spinner_category)
+        # row_3.add_widget(spinner_block_category)
+
+        # spinner_block_group_material    = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
+        # spinner_label_group_material    = LightLabel(text="Grupo", size_hint=(None, 1), width=120)
+        # self.spinner_group_material     = LightSpinner(
+        #     text='Seleccione categoría',
         #     values=[],
         #     size_hint=(1, None),
         #     height=44,
         # )
-        # self.spinner_diameter.bind(text=self.select_diameter)
-        # spinner_block_diameter.add_widget(spinner_label_diameter)
-        # spinner_block_diameter.add_widget(self.spinner_diameter)
-        # row_2.add_widget(spinner_block_diameter)
-
-        spinner_block_range_operation    = BoxLayout(orientation='horizontal', size_hint=(1, None), height=44, spacing=10, padding=[10, 0, 10, 0])
-        spinner_label_range_operation    = LightLabel(text="Rango de operación:", size_hint=(None, 1), width=120)
-        self.spinner_range_operation     = LightSpinner(
-            text='Seleccione rango de operación',
-            values=OPERATION_RANGE,
-            size_hint=(1, None),
-            height=44,
-        )
-        self.spinner_range_operation.bind(text=self.select_range_operation)
-        spinner_block_range_operation.add_widget(spinner_label_range_operation)
-        spinner_block_range_operation.add_widget(self.spinner_range_operation)
-        row_2.add_widget(spinner_block_range_operation)
-        main_layout.add_widget(row_2)
+        # self.spinner_group_material.bind(text=self.select_group_material)
+        # spinner_block_group_material.add_widget(spinner_label_group_material)
+        # spinner_block_group_material.add_widget(self.spinner_group_material)
+        # row_3.add_widget(spinner_block_group_material)
+        # main_layout.add_widget(row_3)
 
 
-
-
-        
         return main_layout
 
     def _update_rect(self, *args):
@@ -209,6 +252,24 @@ class CNCApp(App):
                     .unique() \
                     .astype(str) \
                     .tolist()
+
+    def select_category(self, spinner, text):
+        '''
+            function to configure the spinner of the category event
+        '''
+        print(f"Selected category: {text}")
+        self.data_frame_type_material = pd.read_csv(
+            f"./app/data/materials/{text.lower().replace(' ', '_')}.csv"
+        )
+
+        self.spinner_group_material.values = self.data_frame_type_material.columns.tolist()
+
+
+    def select_group_material(self, spinner, text):
+        '''
+            function to configure the spinner of the group material event
+        '''
+        print(f"Selected group material: {text}")
 
     def select_range_operation(self, spinner, text):
         '''
