@@ -26,7 +26,6 @@ class HeadersContent(GridLayout):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        # self.cols = 4
         self.spacing = 10
         self.padding = 10
         
@@ -41,7 +40,7 @@ class CNCApp(App):
         super().__init__(**kwargs)
         self.title = "CNC App"
         self.icon = "icon.png"
-        self.data_frame_type_operation = None
+        self.data_frame_type_operation:pd.DataFrame = None
 
     def build(self):
         # Main layout

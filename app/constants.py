@@ -22,11 +22,11 @@ OPERATION_RANGE = [
 ]
 
 CATEGORIES      = [
-    'ACERO',
-    'ACERO INOXIDABLE',
-    'FUNDICIÓN',
-    'MAT._NO_FERROSOS',
-    'ALE._ALTA_TEMP.',
-    'AT._ENDURECIDOS',
+    'Acero',
+    'Acero Inoxidable',
+    'Aleacion Alta Temperatura',
+    'Fundicion',
+    'Material No Ferroso',
+    'Endurecidos',
 ]
 
