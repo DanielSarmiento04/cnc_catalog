@@ -69,7 +69,7 @@ class CNCApp(App):
         
         main_layout.add_widget(
             LightLabel(
-                text="Proceso de mecanizado: Fresado`",
+                text="Proceso de mecanizado: Fresado",
                 font_size=30,
                 color=(0, 0, 0, 1),
                 size_hint=(1, None),
@@ -206,7 +206,38 @@ class CNCApp(App):
         main_layout.add_widget(row_3)
 
 
+        row_4 = HeadersContent(cols=3) 
+        self.button_limpiar = Button(text='Limpiar', font_size='18sp', bold=True, background_color=(0.7, 0.8, 0.7, 1), color=(0.2, 0.2, 0.2, 1))
+        self.button_limpiar.bind(on_press=self.on_button_limpiar_press)
+
+        row_4.add_widget(self.button_limpiar)
+
+
+
+        main_layout.add_widget(row_4)
+    
+
+
+
         return main_layout
+
+    def on_button_limpiar_press(self, instance):
+        '''
+            function to clear the selected options
+        '''
+
+        self.spinner_range_operation.text = 'Seleccione rango'
+        self.spinner_operation_ap1s.text = 'Seleccione Ap1'
+        self.spinner_category.text = 'Seleccione categoría'
+        self.spinner_group_material.text = 'Seleccione categoría'
+        self.spinner_operation_specific_materials.text = 'Seleccione material especifico'
+        self.spinner_operation_ap1s.values = []
+        self.spinner_operation_specific_materials.values = []
+        self.spinner_operation_ap1s.values = []
+        self.spinner_group_material.values = []
+        self.spinner_diameter.text = 'Seleccione diámetro'
+
+
 
     def _update_rect(self, *args):
         self.rect.size = Window.size
@@ -216,6 +247,7 @@ class CNCApp(App):
         '''
             function to configure the spinner of the tool event
         '''
+
         self.label.text = f"Selected Tool: {tool}"
         self.main_button.text = tool
 
@@ -223,6 +255,9 @@ class CNCApp(App):
         '''
             function to configure the spinner of the operation event
         '''
+        if text == 'Seleccione operación':
+            return
+
         print(f"Selected operation: {text}")  # You can update this method to handle the selection
 
         self.data_frame_type_operation = pd.read_csv(
@@ -241,6 +276,10 @@ class CNCApp(App):
         '''
             function to configure the spinner of the diameter event
         '''
+        if text == 'Seleccione diámetro':
+            return
+
+
         print(f"Selected diameter: {text}")  # Handle diameter selection as needed
 
 
@@ -257,6 +296,9 @@ class CNCApp(App):
         '''
             function to configure the spinner of the category event
         '''
+        if text == 'Seleccione categoría':
+            return
+
         print(f"Selected category: {text}")
         self.data_frame_type_material = pd.read_csv(
             f"./app/data/materials/{text.lower().replace(' ', '_')}.csv"
@@ -273,6 +315,10 @@ class CNCApp(App):
         '''
             function to configure the spinner of the group material event
         '''
+        if text == 'Seleccione categoría':
+            return
+        
+
         print(f"Selected group material: {text}")
 
         self.spinner_operation_specific_materials.values = self.data_frame_type_material[text] \
