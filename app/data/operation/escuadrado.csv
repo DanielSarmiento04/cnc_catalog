@@ -72,7 +72,7 @@ ES2,Fresas de plato • Mill 4-15™,160,40.0,15.5,16
 ES3,Fresas de mango Screw-On • Mill 1-7™,12,13.0,7.0,2
 ES3,Fresas de mango cilíndrico • Mill 1-7™,12,12.0,7.0,2
 ES3,Fresas de mango cilíndrico • Mill 1-7™,16,16.0,7.0,3
-ES3,Fresas de mango cilíndrico • Mill 1-7™,20,20.0,6.9,5
+ES4,Fresas de mango cilíndrico • Mill 1-7™,20,20.0,6.9,5
 ES4,Fresas de mango Screw-On • Mill 1-10™,16,13.0,10.1,2
 ES4,Fresas de mango Screw-On • Mill 1-10™,20,18.0,10.1,2
 ES4,Fresas de mango Screw-On • Mill 1-10™,20,18.0,10.1,3
@@ -239,8 +239,8 @@ ES9,Fresas de plato • Mill 1-25™,63,22.0,24.7,2
 ES9,Fresas de plato • Mill 1-25™,63,22.0,24.7,3
 ES9,Monobloques • HSK63A • Mill 1-25™,40,,25.0,2
 ES9,Monobloques • HSK63A • Mill 1-25™,50,,24.9,3
-ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ16,25,21.0,16.0,2
-ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ17,32,29.0,16.0,2
+ES9,Fresas de plato Screw-On • Stellram® serie 5720VZ16,25,21.0,16.0,2
+ES9,Fresas de plato Screw-On • Stellram® serie 5720VZ17,32,29.0,16.0,2
 ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ18,32,29.0,16.0,3
 ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ19,25,25.0,16.0,2
 ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ20,32,32.0,16.0,2
@@ -276,15 +276,15 @@ ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,125,40.0,9.2,10
 ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,160,40.0,9.2,8
 ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,160,40.0,9.2,12
 ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,200,60.0,9.2,11
-ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,200,60.0,9.2,14
+ES13,Fresas de plato • KSSM™ 90° • IC 12 mm,200,60.0,9.2,14
 ES13,Fresas de plato • Paso estándar • KSSM-KSSP helicoidal 90° • IC 12 mm,50,22.0,32.4,9
 ES13,Fresas de plato • Paso estándar • KSSM-KSSP helicoidal 90° • IC 12 mm,63,27.0,51.2,15
 ES13,Fresas de plato • Paso estándar • KSSM-KSSP helicoidal 90° • IC 12 mm,80,32.0,61.6,24
-ES14,Fresas de plato • Fresa de filo largo Chevron 5230VS09,50,27.0,51.0,28
-ES14,Fresas de plato • Fresa de filo largo Chevron 5230VS09,50,27.0,80.0,44
-ES15,Fresas de plato • Fresa de filo largo Chevron 5230VS12,63,27.0,57.0,24
-ES15,Fresas de plato • Fresa de filo largo Chevron 5230VS13,63,27.0,94.0,40
-ES15,Fresas de plato • Fresa de filo largo Chevron 5230VS14,80,32.0,65.0,35
-ES15,Fresas de plato • Fresa de filo largo Chevron 5230VS15,80,32.0,110.0,60
-ES15,Fresas de plato • Fresa de filo largo Chevron 5230VS16,100,40.0,76.0,48
-ES15,Fresas de plato • Fresa de filo largo Chevron 5230VS17,100,40.0,133.0,84
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS09,50,27.0,51.0,28
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS09,50,27.0,80.0,44
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS12,63,27.0,57.0,24
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS13,63,27.0,94.0,40
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS14,80,32.0,65.0,35
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS15,80,32.0,110.0,60
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS16,100,40.0,76.0,48
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS17,100,40.0,133.0,84
