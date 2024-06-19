@@ -224,9 +224,9 @@ class CNCApp(App):
         # Row 5: Selected Configuration Label
         row_5 = HeadersContent(cols=3)
 
-        self.label = LightLabel(
+        self.select_tool_label = LightLabel(
             text="Configuración seleccionada", size_hint=(0.6, None), height=44)
-        row_5.add_widget(self.label)
+        row_5.add_widget(self.select_tool_label)
 
         main_layout.add_widget(row_5)
 
@@ -247,11 +247,34 @@ class CNCApp(App):
         self.spinner_operation_ap1s.values = []
         self.spinner_group_material.values = []
         self.spinner_diameter.text = 'Seleccione diámetro'
+        self.select_tool_label.text = "Configuración seleccionada"
+
 
     def on_button_buscar_press(self, instance):
         '''
             function to search the selected options
         '''
+        print('Buscar')
+        if any(
+            [
+                self.spinner_range_operation.text == 'Seleccione rango',
+                self.spinner_operation_ap1s.text == 'Seleccione Ap1',
+                self.spinner_category.text == 'Seleccione categoría',
+                self.spinner_group_material.text == 'Seleccione grupo',
+                self.spinner_operation_specific_materials.text == 'Seleccione material específico',
+                self.spinner_diameter.text == 'Seleccione diámetro'
+            ]
+        ):
+            return
+        
+        data_collect = self.tool_selected_apis.values[0]
+        type_material, nombre, D_max, D1, Api_max, z = data_collect
+
+        self.select_tool_label.text = f"Configuración seleccionada: {nombre} - D1: {D1} - Api_max: {Api_max} - z: {z}"  
+            
+
+
+
 
     def _update_rect(self, *args):
         self.rect.size = Window.size
@@ -264,6 +287,7 @@ class CNCApp(App):
 
         self.label.text = f"Selected Tool: {tool}"
         self.main_button.text = tool
+        
 
     def select_operation(self, spinner, text):
         '''
