@@ -1,0 +1,290 @@
+type,Nombre,D1,D,Api_max,z
+ES1,Fresas de mango Screw-On • Mill 4-11™,16,13.0,11.0,2
+ES1,Fresas de mango Screw-On • Mill 4-11™,20,18.0,11.0,3
+ES1,Fresas de mango Screw-On • Mill 4-11™,25,21.0,11.0,4
+ES1,Fresas de mango Screw-On • Mill 4-11™,32,29.0,11.0,5
+ES1,Fresas de mango Screw-On • Mill 4-11™,32,29.0,11.0,6
+ES1,Fresas de mango Weldon® • Mill 4-11™,16,16.0,11.0,2
+ES1,Fresas de mango Weldon® • Mill 4-11™,20,20.0,11.0,2
+ES1,Fresas de mango Weldon® • Mill 4-11™,20,20.0,11.0,3
+ES1,Fresas de mango Weldon® • Mill 4-11™,25,25.0,11.0,3
+ES1,Fresas de mango Weldon® • Mill 4-11™,32,32.0,11.0,4
+ES1,Fresas de mango Weldon® • Mill 4-11™,40,32.0,11.0,5
+ES1,Fresas de mango cilíndrico • Mill 4-11™,16,16.0,11.0,2
+ES1,Fresas de mango cilíndrico • Mill 4-11™,16,16.0,11.0,2
+ES1,Fresas de mango cilíndrico • Mill 4-11™,20,20.0,11.0,2
+ES1,Fresas de mango cilíndrico • Mill 4-11™,20,20.0,11.0,3
+ES1,Fresas de mango cilíndrico • Mill 4-11™,20,20.0,11.0,3
+ES1,Fresas de mango cilíndrico • Mill 4-11™,25,25.0,11.0,3
+ES1,Fresas de mango cilíndrico • Mill 4-11™,25,25.0,11.0,4
+ES1,Fresas de mango cilíndrico • Mill 4-11™,25,25.0,11.0,4
+ES1,Fresas de mango cilíndrico • Mill 4-11™,32,32.0,11.0,4
+ES1,Fresas de mango cilíndrico • Mill 4-11™,32,32.0,11.0,5
+ES1,Fresas de mango cilíndrico • Mill 4-11™,32,32.0,11.0,5
+ES1,Fresas de mango cilíndrico • Mill 4-11™,40,32.0,11.0,5
+ES1,Fresas de plato • Mill 4-11™,40,16.0,11.0,4
+ES1,Fresas de plato • Mill 4-11™,40,16.0,11.0,6
+ES1,Fresas de plato • Mill 4-11™,40,16.0,11.0,7
+ES1,Fresas de plato • Mill 4-11™,50,22.0,11.0,5
+ES1,Fresas de plato • Mill 4-11™,50,22.0,11.0,7
+ES1,Fresas de plato • Mill 4-11™,50,22.0,11.0,9
+ES1,Fresas de plato • Mill 4-11™,63,22.0,11.0,6
+ES1,Fresas de plato • Mill 4-11™,63,22.0,11.0,9
+ES1,Fresas de plato • Mill 4-11™,80,27.0,11.0,8
+ES1,Fresas de plato • Mill 4-11™,80,27.0,11.0,10
+ES2,Fresas de mango Screw-On • Mill 4-15™,25,21.0,15.5,2
+ES2,Fresas de mango Screw-On • Mill 4-15™,32,29.0,15.5,3
+ES2,Fresas de mango Screw-On • Mill 4-15™,32,29.0,15.5,4
+ES2,Fresas de mango Screw-On • Mill 4-15™,35,29.0,15.5,4
+ES2,Fresas de mango Screw-On • Mill 4-15™,40,29.0,15.5,5
+ES2,Fresas de mango Weldon® • Mill 4-15™,25,25.0,15.5,2
+ES2,Fresas de mango Weldon® • Mill 4-15™,32,32.0,15.5,3
+ES2,Fresas de mango Weldon® • Mill 4-15™,40,32.0,15.5,3
+ES2,Fresas de mango Weldon® • Mill 4-15™,40,32.0,15.5,4
+ES2,Fresas de mango cilíndricas • Mill 4-15™,25,25.0,15.5,2
+ES2,Fresas de mango cilíndricas • Mill 4-15™,25,25.0,15.5,2
+ES2,Fresas de mango cilíndricas • Mill 4-15™,32,32.0,15.5,3
+ES2,Fresas de mango cilíndricas • Mill 4-15™,32,32.0,15.5,3
+ES2,Fresas de mango cilíndricas • Mill 4-15™,32,32.0,15.5,4
+ES2,Fresas de mango cilíndricas • Mill 4-15™,32,32.0,15.5,4
+ES2,Fresas de mango cilíndricas • Mill 4-15™,40,32.0,15.5,3
+ES2,Fresas de mango cilíndricas • Mill 4-15™,40,32.0,15.5,4
+ES2,Fresas de plato • Mill 4-15™,40,16.0,15.5,4
+ES2,Fresas de plato • Mill 4-15™,40,16.0,15.5,5
+ES2,Fresas de plato • Mill 4-15™,50,22.0,15.5,4
+ES2,Fresas de plato • Mill 4-15™,50,22.0,15.5,5
+ES2,Fresas de plato • Mill 4-15™,50,22.0,15.5,6
+ES2,Fresas de plato • Mill 4-15™,63,22.0,15.5,5
+ES2,Fresas de plato • Mill 4-15™,63,22.0,15.5,6
+ES2,Fresas de plato • Mill 4-15™,63,22.0,15.5,7
+ES2,Fresas de plato • Mill 4-15™,80,27.0,15.5,5
+ES2,Fresas de plato • Mill 4-15™,80,27.0,15.5,7
+ES2,Fresas de plato • Mill 4-15™,80,27.0,15.5,9
+ES2,Fresas de plato • Mill 4-15™,100,32.0,15.5,6
+ES2,Fresas de plato • Mill 4-15™,100,32.0,15.5,8
+ES2,Fresas de plato • Mill 4-15™,100,32.0,15.5,11
+ES2,Fresas de plato • Mill 4-15™,125,40.0,15.5,7
+ES2,Fresas de plato • Mill 4-15™,125,40.0,15.5,9
+ES2,Fresas de plato • Mill 4-15™,125,40.0,15.5,12
+ES2,Fresas de plato • Mill 4-15™,160,40.0,15.5,8
+ES2,Fresas de plato • Mill 4-15™,160,40.0,15.5,12
+ES2,Fresas de plato • Mill 4-15™,160,40.0,15.5,16
+ES3,Fresas de mango Screw-On • Mill 1-7™,12,13.0,7.0,2
+ES3,Fresas de mango cilíndrico • Mill 1-7™,12,12.0,7.0,2
+ES3,Fresas de mango cilíndrico • Mill 1-7™,16,16.0,7.0,3
+ES4,Fresas de mango cilíndrico • Mill 1-7™,20,20.0,6.9,5
+ES4,Fresas de mango Screw-On • Mill 1-10™,16,13.0,10.1,2
+ES4,Fresas de mango Screw-On • Mill 1-10™,20,18.0,10.1,2
+ES4,Fresas de mango Screw-On • Mill 1-10™,20,18.0,10.1,3
+ES4,Fresas de mango Screw-On • Mill 1-10™,25,21.0,10.0,3
+ES4,Fresas de mango Screw-On • Mill 1-10™,25,21.0,10.0,4
+ES4,Fresas de mango Screw-On • Mill 1-10™,32,29.0,10.0,4
+ES4,Fresas de mango Screw-On • Mill 1-10™,32,29.0,10.0,5
+ES4,Fresas de mango Screw-On • Mill 1-10™,40,29.0,9.9,6
+ES4,Fresas de mango Screw-On • Mill 1-10™,42,29.0,9.9,6
+ES4,Fresas de mango Weldon® • Mill 1-10™,16,16.0,10.1,2
+ES4,Fresas de mango Weldon® • Mill 1-10™,20,20.0,10.1,2
+ES4,Fresas de mango Weldon® • Mill 1-10™,20,20.0,10.1,3
+ES4,Fresas de mango Weldon® • Mill 1-10™,25,25.0,10.0,3
+ES4,Fresas de mango Weldon® • Mill 1-10™,25,25.0,10.0,4
+ES4,Fresas de mango Weldon® • Mill 1-10™,32,32.0,10.0,4
+ES4,Fresas de mango Weldon® • Mill 1-10™,32,32.0,10.0,5
+ES4,Fresas de mango cilíndrico • Mill 1-10™,12,16.0,10.3,1
+ES4,Fresas de mango cilíndrico • Mill 1-10™,16,16.0,10.1,2
+ES4,Fresas de mango cilíndrico • Mill 1-10™,20,20.0,10.1,2
+ES4,Fresas de mango cilíndrico • Mill 1-10™,20,20.0,10.1,3
+ES4,Fresas de mango cilíndrico • Mill 1-10™,25,25.0,10.0,3
+ES4,Fresas de mango cilíndrico • Mill 1-10™,25,25.0,10.0,4
+ES4,Fresas de mango cilíndrico • Mill 1-10™,32,32.0,10.0,4
+ES4,Fresas de mango cilíndrico • Mill 1-10™,32,32.0,10.0,5
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,16,16.0,10.1,2
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,16,16.0,9.7,2
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,18,16.0,10.1,2
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,20,20.0,10.1,2
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,20,20.0,9.8,2
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,20,20.0,10.1,3
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,20,20.0,9.8,3
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,22,20.0,10.1,3
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,25,25.0,1.0,3
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,25,25.0,9.8,3
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,25,25.0,10.0,4
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,25,25.0,9.8,4
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,28,25.0,10.0,4
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,32,32.0,10.0,4
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,32,32.0,9.7,4
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,32,32.0,10.0,5
+ES4,Fresas de mango cilíndricas • Longitud larga • Mill 1-10™,32,32.0,9.7,5
+ES4,Fresas de plato • Mill 1-10™,40,16.0,9.9,4
+ES4,Fresas de plato • Mill 1-10™,40,16.0,9.9,6
+ES4,Fresas de plato • Mill 1-10™,50,22.0,9.9,5
+ES4,Fresas de plato • Mill 1-10™,50,22.0,9.9,8
+ES4,Fresas de plato • Mill 1-10™,63,22.0,9.9,6
+ES4,Fresas de plato • Mill 1-10™,63,22.0,9.9,9
+ES4,Fresas de plato • Mill 1-10™,80,27.0,9.9,8
+ES4,Fresas de plato • Mill 1-10™,80,27.0,9.9,10
+ES4,Fresas de plato • Mill 1-10™,100,32.0,9.9,8
+ES4,Fresas de plato • Mill 1-10™,100,32.0,9.9,12
+ES5,Fresas de mango helicoidales Screw-on • Mill 1-10™,20,18.0,18.9,4
+ES5,Fresas de mango helicoidales Screw-on • Mill 1-10™,25,21.0,18.8,4
+ES5,Fresas de mango helicoidales Screw-on • Mill 1-10™,32,29.0,18.7,6
+ES5,Fresas de mango helicoidales Weldon® • Mill 1-10™,20,20.0,27.7,6
+ES5,Fresas de mango helicoidales Weldon® • Mill 1-10™,25,25.0,36.4,8
+ES5,Fresas de mango helicoidales Weldon® • Mill 1-10™,32,32.0,44.8,10
+ES5,Fresas de mango helicoidales Weldon® • Mill 1-10™,32,32.0,44.8,15
+ES5,Fresas de mango helicoidales cilíndricas • Mill 1-10™,20,20.0,18.9,4
+ES5,Fresas de mango helicoidales cilíndricas • Mill 1-10™,20,20.0,27.7,6
+ES5,Fresas de mango helicoidales cilíndricas • Mill 1-10™,25,25.0,18.8,4
+ES5,Fresas de mango helicoidales cilíndricas • Mill 1-10™,25,25.0,36.4,8
+ES5,Fresas de mango helicoidales cilíndricas • Mill 1-10™,32,32.0,18.7,4
+ES5,Fresas de mango helicoidales cilíndricas • Mill 1-10™,32,32.0,18.7,6
+ES5,Fresas de mango helicoidales cilíndricas • Mill 1-10™,32,32.0,44.8,15
+ES5,Fresas de plato helicoidales • Mill 1-10™,40,16.0,35.9,12
+ES5,Fresas de plato helicoidales • Mill 1-10™,40,16.0,35.9,20
+ES5,Fresas de plato helicoidales • Mill 1-10™,50,22.0,44.3,15
+ES5,Fresas de plato helicoidales • Mill 1-10™,50,22.0,44.3,25
+ES6,Fresas de mango Screw-On • Mill 1-14™,20,18.0,14.6,2
+ES6,Fresas de mango Screw-On • Mill 1-14™,25,21.0,14.5,2
+ES6,Fresas de mango Screw-On • Mill 1-14™,25,21.0,14.5,3
+ES6,Fresas de mango Screw-On • Mill 1-14™,32,29.0,14.4,3
+ES6,Fresas de mango Screw-On • Mill 1-14™,32,29.0,14.4,4
+ES6,Fresas de mango Screw-On • Mill 1-14™,40,29.0,14.3,4
+ES6,Fresas de mango Screw-On • Mill 1-14™,40,29.0,14.3,5
+ES6,Fresas de mango Weldon® • Mill 1-14™,20,20.0,14.7,2
+ES6,Fresas de mango Weldon® • Mill 1-14™,25,25.0,14.6,2
+ES6,Fresas de mango Weldon® • Mill 1-14™,25,25.0,14.6,3
+ES6,Fresas de mango Weldon® • Mill 1-14™,32,32.0,14.5,3
+ES6,Fresas de mango Weldon® • Mill 1-14™,32,32.0,14.5,4
+ES6,Fresas de mango Weldon® • Mill 1-14™,40,32.0,14.3,4
+ES6,Fresas de mango Weldon® • Mill 1-14™,40,32.0,14.3,5
+ES6,Fresas de mango cilíndrico • Mill 1-14™,20,20.0,14.7,2
+ES6,Fresas de mango cilíndrico • Mill 1-14™,20,20.0,14.7,2
+ES6,Fresas de mango cilíndrico • Mill 1-14™,25,25.0,14.6,2
+ES6,Fresas de mango cilíndrico • Mill 1-14™,25,25.0,14.6,2
+ES6,Fresas de mango cilíndrico • Mill 1-14™,25,25.0,14.6,3
+ES6,Fresas de mango cilíndrico • Mill 1-14™,25,25.0,14.6,3
+ES6,Fresas de mango cilíndrico • Mill 1-14™,32,25.0,14.6,3
+ES6,Fresas de mango cilíndrico • Mill 1-14™,32,25.0,14.6,4
+ES6,Fresas de mango cilíndrico • Mill 1-14™,32,32.0,14.5,3
+ES6,Fresas de mango cilíndrico • Mill 1-14™,32,32.0,14.6,3
+ES6,Fresas de mango cilíndrico • Mill 1-14™,32,32.0,14.5,4
+ES6,Fresas de mango cilíndrico • Mill 1-14™,32,32.0,14.6,4
+ES6,Fresas de mango cilíndrico • Mill 1-14™,40,32.0,14.5,4
+ES6,Fresas de mango cilíndrico • Mill 1-14™,40,32.0,14.4,4
+ES6,Fresas de mango cilíndrico • Mill 1-14™,40,32.0,14.5,5
+ES6,Fresas de mango cilíndrico • Mill 1-14™,40,32.0,14.4,5
+ES6,Fresas de plato • Mill 1-14™,40,16.0,14.3,4
+ES6,Fresas de plato • Mill 1-14™,40,16.0,14.3,5
+ES6,Fresas de plato • Mill 1-14™,50,22.0,14.0,5
+ES6,Fresas de plato • Mill 1-14™,50,22.0,14.0,6
+ES6,Fresas de plato • Mill 1-14™,63,22.0,14.0,6
+ES6,Fresas de plato • Mill 1-14™,63,22.0,14.0,7
+ES6,Fresas de plato • Mill 1-14™,80,27.0,14.0,7
+ES6,Fresas de plato • Mill 1-14™,80,27.0,14.0,9
+ES6,Fresas de plato • Mill 1-14™,100,32.0,14.2,8
+ES6,Fresas de plato • Mill 1-14™,100,32.0,14.2,10
+ES6,Fresas de plato • Mill 1-14™,125,40.0,14.1,9
+ES6,Fresas de plato • Mill 1-14™,125,40.0,14.1,12
+ES6,Fresas de plato • Mill 1-14™,160,40.0,14.1,11
+ES7,Fresas de mango helicoidales Weldon® • Ranura y perfil • Mill 1-14™,32,32.0,27.8,4
+ES7,Fresas de mango helicoidales Weldon® • Ranura y perfil • Mill 1-14™,40,32.0,27.5,6
+ES7,Fresas de mango helicoidales Weldon® • Ranura y perfil • Mill 1-14™,40,32.0,40.8,9
+ES7,Fresas de mango helicoidales Weldon® • Ranura y perfil • Mill 1-14™,40,32.0,50.0,12
+ES7,Fresas de mango helicoidales Weldon® • Ranura y perfil • Mill 1-14™,50,40.0,53.5,12
+ES7,Fresas de plato helicoidales • Ranura y perfil • Mill 1-14™,50,22.0,27.3,6
+ES7,Fresas de plato helicoidales • Ranura y perfil • Mill 1-14™,50,22.0,40.4,9
+ES7,Fresas de plato helicoidales • Ranura y perfil • Mill 1-14™,63,27.0,26.9,6
+ES7,Fresas de plato helicoidales • Ranura y perfil • Mill 1-14™,63,27.0,39.9,9
+ES7,Fresas de plato helicoidales • Ranura y perfil • Mill 1-14™,63,27.0,52.8,12
+ES7,Fresas de plato helicoidales • Ranura y perfil • Mill 1-14™,63,27.0,39.9,12
+ES8,Fresas de mango Screw-On • Mill 1-18™,25,21.0,18.0,2
+ES8,Fresas de mango Screw-On • Mill 1-18™,32,29.0,18.0,2
+ES8,Fresas de mango Screw-On • Mill 1-18™,32,29.0,18.0,3
+ES8,Fresas de mango Screw-On • Mill 1-18™,40,29.0,17.8,3
+ES8,Fresas de mango Screw-On • Mill 1-18™,40,29.0,17.8,4
+ES8,Fresas de mango Weldon® • Mill 1-18™,25,25.0,18.0,2
+ES8,Fresas de mango Weldon® • Mill 1-18™,32,32.0,18.0,3
+ES8,Fresas de mango Weldon® • Mill 1-18™,40,32.0,17.8,3
+ES8,Fresas de mango Weldon® • Mill 1-18™,40,32.0,17.4,4
+ES8,Fresas de mango cilíndrico • Mill 1-18™,25,25.0,18.0,2
+ES8,Fresas de mango cilíndrico • Mill 1-18™,25,25.0,18.0,2
+ES8,Fresas de mango cilíndrico • Mill 1-18™,25,25.0,18.0,2
+ES8,Fresas de mango cilíndrico • Mill 1-18™,32,25.0,18.0,3
+ES8,Fresas de mango cilíndrico • Mill 1-18™,32,32.0,17.0,2
+ES8,Fresas de mango cilíndrico • Mill 1-18™,32,32.0,17.0,3
+ES8,Fresas de mango cilíndrico • Mill 1-18™,32,32.0,17.0,3
+ES8,Fresas de mango cilíndrico • Mill 1-18™,34,32.0,18.0,3
+ES8,Fresas de mango cilíndrico • Mill 1-18™,40,32.0,17.4,3
+ES8,Fresas de mango cilíndrico • Mill 1-18™,40,32.0,17.4,3
+ES8,Fresas de mango cilíndrico • Mill 1-18™,40,32.0,17.4,4
+ES8,Fresas de mango cilíndrico • Mill 1-18™,40,32.0,17.4,4
+ES8,Fresas de mango cilíndrico • Mill 1-18™,40,32.0,17.4,4
+ES8,Fresas de plato • Mill 1-18™,50,22.0,17.7,4
+ES8,Fresas de plato • Mill 1-18™,50,22.0,17.7,5
+ES8,Fresas de plato • Mill 1-18™,63,22.0,17.6,5
+ES8,Fresas de plato • Mill 1-18™,63,22.0,17.6,6
+ES8,Fresas de plato • Mill 1-18™,80,27.0,17.4,6
+ES8,Fresas de plato • Mill 1-18™,80,27.0,17.4,7
+ES8,Fresas de plato • Mill 1-18™,100,32.0,17.4,7
+ES8,Fresas de plato • Mill 1-18™,100,32.0,17.4,8
+ES8,Fresas de plato • Mill 1-18™,125,40.0,17.4,8
+ES8,Fresas de plato • Mill 1-18™,125,40.0,17.4,9
+ES8,Fresas de plato • Mill 1-18™,160,40.0,17.4,10
+ES8,Fresas de plato • Mill 1-18™,160,40.0,17.4,12
+ES9,Fresas de mango cilíndrico • Mill 1-25™,40,32.0,25.0,2
+ES9,Fresas de mango cilíndrico • Mill 1-25™,40,32.0,25.0,2
+ES9,Fresas de mango cilíndrico • Mill 1-25™,50,32.0,24.9,2
+ES9,Fresas de mango cilíndrico • Mill 1-25™,50,32.0,24.9,3
+ES9,Fresas de plato • Mill 1-25™,52,22.0,24.8,2
+ES9,Fresas de plato • Mill 1-25™,63,22.0,24.7,2
+ES9,Fresas de plato • Mill 1-25™,63,22.0,24.7,3
+ES9,Monobloques • HSK63A • Mill 1-25™,40,,25.0,2
+ES9,Monobloques • HSK63A • Mill 1-25™,50,,24.9,3
+ES9,Fresas de plato Screw-On • Stellram® serie 5720VZ16,25,21.0,16.0,2
+ES9,Fresas de plato Screw-On • Stellram® serie 5720VZ17,32,29.0,16.0,2
+ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ18,32,29.0,16.0,3
+ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ19,25,25.0,16.0,2
+ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ20,32,32.0,16.0,2
+ES10,Fresas de plato Screw-On • Stellram® serie 5720VZ21,32,32.0,16.0,3
+ES10,Fresas de plato • Paso medio y ancho • Stellram® serie 5720VZ16,40,16.0,16.0,3
+ES10,Fresas de plato • Paso medio y ancho • Stellram® serie 5720VZ16,50,22.0,16.0,3
+ES10,Fresas de plato • Paso medio y ancho • Stellram® serie 5720VZ16,50,22.0,16.0,4
+ES10,Fresas de plato • Paso medio y ancho • Stellram® serie 5720VZ16,63,22.0,16.0,4
+ES10,Fresas de plato • Paso medio y ancho • Stellram® serie 5720VZ16,63,22.0,16.0,5
+ES10,Fresas de plato • Paso medio y ancho • Stellram® serie 5720VZ16,80,27.0,16.0,4
+ES10,Fresas de plato • Paso medio y ancho • Stellram® serie 5720VZ16,80,27.0,16.0,5
+ES10,Monobloques • HSK63A • Stellram® serie 5720VZ16,25,63.0,16.0,2
+ES10,Monobloques • HSK63A • Stellram® serie 5720VZ16,32,63.0,16.0,3
+ES10,Monobloques • HSK63A • Stellram® serie 5720VZ16,40,63.0,16.0,4
+ES10,Monobloques • HSK63A • Stellram® serie 5720VZ16,50,63.0,16.0,4
+ES11,Fresas de mango Weldon® • KSSM™ 90° • IC 10 mm,25,25.0,6.6,2
+ES11,Fresas de mango Weldon® • KSSM™ 90° • IC 10 mm,32,32.0,6.6,3
+ES11,Fresas de mango Weldon® • KSSM™ 90° • IC 10 mm,40,32.0,6.6,4
+ES11,Fresas de plato • KSSM™ 90° • IC 10 mm,50,22.0,6.6,5
+ES11,Fresas de plato • KSSM™ 90° • IC 10 mm,63,22.0,6.6,6
+ES11,Fresas de plato • KSSM™ 90° • IC 10 mm,80,27.0,6.6,8
+ES11,Fresas de plato • KSSM™ 90° • IC 10 mm,100,32.0,6.6,10
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,50,22.0,9.2,3
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,50,22.0,9.2,4
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,63,22.0,9.2,4
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,63,22.0,9.2,5
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,80,27.0,9.2,5
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,80,27.0,9.2,6
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,100,32.0,9.2,6
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,100,32.0,9.2,8
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,125,40.0,9.2,7
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,125,40.0,9.2,10
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,160,40.0,9.2,8
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,160,40.0,9.2,12
+ES12,Fresas de plato • KSSM™ 90° • IC 12 mm,200,60.0,9.2,11
+ES13,Fresas de plato • KSSM™ 90° • IC 12 mm,200,60.0,9.2,14
+ES13,Fresas de plato • Paso estándar • KSSM-KSSP helicoidal 90° • IC 12 mm,50,22.0,32.4,9
+ES13,Fresas de plato • Paso estándar • KSSM-KSSP helicoidal 90° • IC 12 mm,63,27.0,51.2,15
+ES13,Fresas de plato • Paso estándar • KSSM-KSSP helicoidal 90° • IC 12 mm,80,32.0,61.6,24
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS09,50,27.0,51.0,28
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS09,50,27.0,80.0,44
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS12,63,27.0,57.0,24
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS13,63,27.0,94.0,40
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS14,80,32.0,65.0,35
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS15,80,32.0,110.0,60
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS16,100,40.0,76.0,48
+ES13,Fresas de plato • Fresa de filo largo Chevron 5230VS17,100,40.0,133.0,84

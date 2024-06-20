@@ -1,0 +1,122 @@
+type,Nombre,D1,D,Api_max,z
+RA1,KTMS  •  Fresa para ranuras en T con refrigeracion inteior • Sistema metrico,25,25,11.0,4
+RA1,KTMS  •  Fresa para ranuras en T con refrigeracion inteior • Sistema metrico,32,32,14.0,4
+RA1,KTMS  •  Fresa para ranuras en T con refrigeracion inteior • Sistema metrico,40,32,18.0,4
+RA1,KTMS  •  Fresa para ranuras en T con refrigeracion inteior • Sistema metrico,50,32,22.0,4
+RA1,"A2 • Ancho de corte 1,6 mm • KVNS ™ A2™",63,16,1.3,5
+RA2,"A2 • Ancho de corte 1,6 mm • KVNS ™ A2™",80,16,1.3,7
+RA2,"A2 • Ancho de corte 1,6 mm • KVNS ™ A2™",100,22,1.3,9
+RA2,"A2 • Ancho de corte 1,6 mm • KVNS ™ A2™",125,32,1.3,11
+,"A2 • Ancho de corte 2,2 mm • KVNS ™ A2™",80,16,1.8,7
+RA3,"A2 • Ancho de corte 2,2 mm • KVNS ™ A2™",100,22,1.8,9
+RA3,"A2 • Ancho de corte 2,2 mm • KVNS ™ A2™",125,32,1.8,11
+RA3,"A2 • Ancho de corte 2,2 mm • KVNS ™ A2™",160,40,1.8,14
+RA3,A2 • Ancho de corte 3 mm • KVNS ™ A2™,63,16,2.4,4
+,A2 • Ancho de corte 3 mm • KVNS ™ A2™,80,16,2.4,6
+,A2 • Ancho de corte 3 mm • KVNS ™ A2™,100,22,2.4,9
+,A2 • Ancho de corte 3 mm • KVNS ™ A2™,125,32,2.4,11
+,A2 • Ancho de corte 3 mm • KVNS ™ A2™,160,40,2.4,14
+,A2 • Ancho de corte 3 mm • KVNS ™ A2™,200,40,2.4,19
+,A2 • Ancho de corte 3 mm • KVNS ™ A2™,250,40,2.4,24
+,A2 • Ancho de corte 4 mm • KVNS ™ A2™,63,16,3.4,4
+RA5,A2 • Ancho de corte 4 mm • KVNS ™ A2™,80,16,3.4,6
+RA5,A2 • Ancho de corte 4 mm • KVNS ™ A2™,100,22,3.4,9
+RA5,A2 • Ancho de corte 4 mm • KVNS ™ A2™,125,32,3.4,11
+RA5,A2 • Ancho de corte 4 mm • KVNS ™ A2™,160,40,3.4,14
+RA5,A2 • Ancho de corte 4 mm • KVNS ™ A2™,200,40,3.4,19
+RA5,SN • Montaje de eje • Corte de cara completa,80,27,12.0,10
+RA6,SN • Montaje de eje • Corte de cara completa,100,27,12.0,12
+RA6,SN • Montaje de eje • Corte de cara completa,100,27,12.0,12
+RA6,SN • Montaje de eje • Corte de cara completa,100,27,12.0,10
+RA6,SN • Montaje de eje • Corte de cara completa,125,40,12.0,14
+RA6,SN • Montaje de eje • Corte de cara completa,125,40,12.0,14
+RA6,SN • Montaje de eje • Corte de cara completa,125,40,12.0,12
+RA6,SN • Montaje de eje • Corte de cara completa,125,40,12.0,12
+RA6,SN • Montaje de eje • Corte de cara completa,160,40,12.0,18
+RA6,SN • Montaje de eje • Corte de cara completa,160,40,12.0,18
+RA6,SN • Montaje de eje • Corte de cara completa,160,40,12.0,16
+RA6,SN • Montaje de eje • Corte de cara completa,200,50,12.0,18
+RA6,SN • Montaje de eje • Corte de cara completa,250,50,12.0,24
+RA6,SN • Montaje de eje • Corte de cara completa,250,50,12.0,24
+,LN • Montaje de eje • Corte de cara completa,80,27,12.0,8
+RA7,LN • Montaje de eje • Corte de cara completa,80,27,12.0,8
+RA7,LN • Montaje de eje • Corte de cara completa,100,32,12.0,10
+RA7,LN • Montaje de eje • Corte de cara completa,100,32,12.0,10
+RA7,LN • Montaje de eje • Corte de cara completa,125,40,12.0,12
+RA7,LN • Montaje de eje • Corte de cara completa,160,40,12.0,16
+,LN • Montaje de eje • Corte de cara completa,160,40,12.0,15
+,LN • Montaje de eje • Corte de cara completa,160,40,12.0,15
+,LN • Montaje de eje • Corte de cara completa,200,50,12.0,18
+,LN • Montaje de plato • Corte de cara completa,80,22,50.0,8
+,LN • Montaje de plato • Corte de cara completa,80,22,50.0,8
+,LN • Montaje de plato • Corte de cara completa,100,27,50.0,10
+,LN • Montaje de plato • Corte de cara completa,100,27,50.0,10
+,LN • Montaje de plato • Corte de cara completa,125,40,50.0,12
+,LN • Montaje de plato • Corte de cara completa,160,40,50.0,16
+,LN • Montaje de plato • Corte de cara completa,160,40,50.0,15
+,Montaje de eje  • IC  10 mm  • A derechas,100,32,9.1,10
+,Montaje de eje  • IC  10 mm  • A derechas,125,40,9.1,11
+,Montaje de eje  • IC  10 mm  • A derechas,160,40,9.1,11
+,Montaje de eje  • IC  10 mm  • A derechas,200,50,9.1,13
+,Montaje de eje  • IC  10 mm  • A izquierdas,160,40,9.1,11
+,Montaje de eje  • IC  10 mm  • A izquierdas,200,50,9.1,13
+,Montaje de eje  • IC  10 mm  • Neutro (ranurado completo),100,32,15.83,10
+,Montaje de eje  • IC  10 mm  • Neutro (ranurado completo),125,40,15.83,12
+,Montaje de eje  • IC  10 mm  • Neutro (ranurado completo),160,40,15.83,12
+,Montaje de eje  • IC  10 mm  • Neutro (ranurado completo),200,50,15.83,14
+,Montaje de plato  • Corte de media cara  • A derechas • Plaquitas IC de 10 mm,100,32,9.1,6
+,Montaje de plato  • Corte de media cara  • A derechas • Plaquitas IC de 10 mm,125,32,9.1,8
+,Montaje de plato  • Corte de media cara  • A derechas • Plaquitas IC de 10 mm,160,40,9.1,10
+,Montaje de plato  • Corte de media cara  • A izquierdas • Plaquitas IC de 10 mm,100,32,9.1,6
+,Montaje de plato  • Corte de media cara  • A izquierdas • Plaquitas IC de 10 mm,160,40,9.1,10
+,Montaje de eje  • Corte de media cara  • A izquierdas • Plaquitas IC de 10 mm,200,50,9.1,14
+,Montaje de eje  • Corte de media cara  • A izquierdas • Plaquitas IC de 10 mm,250,50,9.1,18
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 14 - 16 mm,100,32,13.9,6
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 14 - 16 mm,125,40,13.9,8
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 14 - 16 mm,160,40,13.9,10
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 14 - 16 mm,200,40,13.9,14
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 16 - 18 mm,125,40,15.9,8
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 16 - 18 mm,160,40,15.9,10
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 16 - 18 mm,250,50,15.9,18
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 16 - 18 mm,315,60,15.9,20
+,Fresa de ranurado de montaje de plato • Rango de ajuste 14 - 16 mm,100,27,50.8,6
+,Fresa de ranurado de montaje de plato • Rango de ajuste 14 - 16 mm,125,32,50.8,8
+,Fresa de ranurado de montaje de plato • Rango de ajuste 14 - 16 mm,160,40,50.8,10
+,Fresa de ranurado de montaje de plato • Rango de ajuste 14 - 16 mm,200,40,50.8,14
+,Fresa de ranurado de montaje de plato • Rango de ajuste 16 - 18 mm,125,32,50.8,8
+,Fresa de ranurado de montaje de plato • Rango de ajuste 16 - 18 mm,160,40,50.8,10
+,Fresa de ranurado de montaje de plato • Rango de ajuste 16 - 18 mm,200,40,50.8,14
+,Fresa de ranurado de montaje de plato • Rango de ajuste 16 - 18 mm,250,60,50.8,18
+,Fresa de ranurado de montaje de plato • Rango de ajuste 16 - 18 mm,315,60,50.8,20
+,Montaje de eje  • IC 12 mm  • A derechas,160,40,11.7,12
+,Montaje de eje  • IC 12 mm  • A derechas,200,50,11.7,14
+,Montaje de eje  • IC 12 mm  • A derechas,250,50,11.7,16
+,Montaje de eje  • IC 12 mm  • A izquierdas,150,40,11.7,12
+,Montaje de eje  • IC 12 mm  • A izquierdas,200,50,11.7,14
+,Montaje de eje  • IC 12 mm  • A izquierdas,250,50,11.7,16
+,Montaje de eje  • IC  12 mm  • Neutro (ranurado completo),160,40,17.9,14
+,Montaje de eje  • IC  12 mm  • Neutro (ranurado completo),200,50,17.9,18
+,Montaje de eje  • IC  12 mm  • Neutro (ranurado completo),250,50,17.9,22
+,Montaje de eje  • Corte de media cara  • A derechas,125,40,18.2,8
+,Montaje de eje  • Corte de media cara  • A derechas,160,40,18.2,10
+,Montaje de eje  • Corte de media cara  • A izquierdas,125,40,11.7,8
+,Montaje de eje  • Corte de media cara  • A izquierdas,160,40,11.7,10
+,Montaje de eje  • Corte de media cara  • A izquierdas,315,60,11.7,18
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 18 - 20.7 mm,125,40,18.2,8
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 18 - 20.7 mm,160,40,18.2,10
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 18 - 20.7 mm,200,50,18.2,14
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 18 - 20.7 mm,250,50,18.2,16
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 18 - 20.7 mm,315,60,18.2,18
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 20.7 - 23.3 mm,125,40,20.8,8
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 20.7 - 23.3 mm,160,40,20.8,10
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 20.7 - 23.3 mm,200,50,20.8,14
+,Fresa de ranurado de montaje de eje  • Rango de ajuste 20.7 - 23.3 mm,315,50,20.8,18
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 18 - 20-7 mm ,125,32,51.0,8
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 18 - 20-7 mm ,160,40,51.0,10
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 18 - 20-7 mm ,250,60,51.0,16
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 18 - 20-7 mm ,315,60,51.0,18
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 20.7 - 23.3 mm ,125,32,51.0,8
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 20.7 - 23.3 mm ,160,40,51.0,10
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 20.7 - 23.3 mm ,200,40,51.0,14
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 20.7 - 23.3 mm ,250,60,51.0,16
+,Montaje de plato  • Ancho de ranurado • Rango de ajuste 20.7 - 23.3 mm ,315,60,51.0,18

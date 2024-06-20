@@ -48,6 +48,9 @@ class CNCApp(App):
         self.diameter_selected: int
         self.range_operation: str
 
+        self.plaquitas_configuration = ['P1', 'P2', 'P3', 'P4', 'P5', 'P6'] + ['M1', 'M2', 'M3'] + ['K1', 'K2', 'K3'] + \
+        ['N1', 'N2', 'N3'] + ['S1', 'S2', 'S3', 'S4'] + ['H1']
+
 
     def build(self):
         # Main layout
@@ -233,6 +236,17 @@ class CNCApp(App):
 
         main_layout.add_widget(row_5)
 
+        row_6 = HeadersContent(cols=3)
+
+        self.select_plaquita = LightLabel(
+            text="Configuración plaquita", 
+            size_hint=(0.6, None), 
+            height=44
+        )
+        row_6.add_widget(self.select_plaquita)
+
+        main_layout.add_widget(row_6)
+
         return main_layout
 
     def on_button_limpiar_press(self, instance):
@@ -403,5 +417,11 @@ class CNCApp(App):
         self.data_frame_plaquita = pd.read_csv(
             f'./app/data/plaquitas/{self.type_standard_material_selected}.csv'
         )
+
+        data_collect = self.data_frame_plaquita[
+            [f'{self.range_operation} GEOMETRÍA', f'{self.range_operation} CALIDAD']
+        ]
+        self.select_plaquita.text = f"Configuración plaquita: {data_collect.iloc[0, 0]} - {data_collect.iloc[0, 1]}"
+
 
 
