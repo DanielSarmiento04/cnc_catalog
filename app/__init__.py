@@ -43,8 +43,11 @@ class CNCApp(App):
         self.icon = "icon.png"
         self.data_frame_type_operation: pd.DataFrame = None
         self.data_frame_type_material: pd.DataFrame = None
+        self.data_frame_plaquita: pd.DataFrame = None
 
         self.diameter_selected: int
+        self.range_operation: str
+
 
     def build(self):
         # Main layout
@@ -249,7 +252,6 @@ class CNCApp(App):
         self.spinner_diameter.text = 'Seleccione diámetro'
         self.select_tool_label.text = "Configuración seleccionada"
 
-
     def on_button_buscar_press(self, instance):
         '''
             function to search the selected options
@@ -266,15 +268,11 @@ class CNCApp(App):
             ]
         ):
             return
-        
+
         data_collect = self.tool_selected_apis.values[0]
         type_material, nombre, D_max, D1, Api_max, z = data_collect
 
-        self.select_tool_label.text = f"Configuración seleccionada: {nombre} - D1: {D1} - Api_max: {Api_max} - z: {z}"  
-            
-
-
-
+        self.select_tool_label.text = f"Configuración seleccionada: {nombre} - D1: {D1} - Api_max: {Api_max} - z: {z}"
 
     def _update_rect(self, *args):
         self.rect.size = Window.size
@@ -287,7 +285,6 @@ class CNCApp(App):
 
         self.label.text = f"Selected Tool: {tool}"
         self.main_button.text = tool
-        
 
     def select_operation(self, spinner, text):
         '''
@@ -382,7 +379,9 @@ class CNCApp(App):
             function to configure the spinner of the range operation event
         '''
         print(
-            f"Selected range operation: {text}")  # Handle range operation selection as needed
+            f"Selected range operation: {text}"
+        )  # Handle range operation selection as needed
+        self.range_operation = text
 
     def select_ap1(self, spinner, text):
         '''
@@ -397,3 +396,12 @@ class CNCApp(App):
             (self.data_frame_type_operation['D1'] == int(self.diameter_selected)) &
             (self.data_frame_type_operation['Api_max'] == float(text))
         ]
+
+
+        self.type_standard_material_selected = self.tool_selected_apis['type'].unique()[0]
+
+        self.data_frame_plaquita = pd.read_csv(
+            f'./app/data/plaquitas/{self.type_standard_material_selected}.csv'
+        )
+
+
